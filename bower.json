@@ -1,0 +1,15 @@
+{
+  "name": "Project-Name",
+  "authors": [],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "keywords": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "font-awesome": "fontawesome#^4.6.3"
+  },
+  "devDependencies": {}
+}
