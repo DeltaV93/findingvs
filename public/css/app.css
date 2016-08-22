@@ -2192,7 +2192,7 @@
   font-style: normal; }
 
 body {
-  color: #fff;
+  /*color: #fff;*/
   background-color: lightblue;
   /*font-family: 'Poiret One';*/ }
 
@@ -2225,7 +2225,7 @@ Links
 a, a:visited {
   /*margin-left: 30px;*/
   /*font-family: 'Trochut';*/
-  color: #fff;
+  /*color: #fff;*/
   text-decoration: underline; }
 
 a:hover {

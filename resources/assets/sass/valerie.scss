@@ -1,16 +1,30 @@
 // Core
-@import "normalize";
-@import "variables";
-@import "base";
-@import "mixins";
+// @import "normalize";
+// @import "variables";
+// @import "base";
+// @import "mixins";
+
 
 // UI Kit
-@import "type";
-@import "buttons";
-@import "forms";
-@import "grid";
-@import "posts";
-@import "helpers";
+// @import "type";
+// @import "buttons";
+// @import "nav";
+// @import "navbar";
+// @import "forms";
+// @import "grid";
+// @import "posts";
+// @import "helpers";
 
 // Vertebrae
 // @import "theme";
+body{
+	color: #fff;
+	// background-color: lightblue;
+	// font-size: 18px;
+}
+.wrapper {
+	margin-top: 100px;
+}
+.text-white {
+	color: #fff;
+}

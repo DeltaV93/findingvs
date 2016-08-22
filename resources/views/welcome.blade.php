@@ -23,17 +23,18 @@
         </div>
 
         <div class="row align-center">
-          <h3 class="text-center ">Creater of Delta<span class="deltav-v">V</span> Industry</h3>
+          {{-- <h3 class="text-center ">Creater of Delta<span class="deltav --}}
+          <h3 class="text-white text-center">Frontend Devloper / UX Designer</h3>
         </div>
-        <div class="row align-center text-center">
+        {{-- <div class="row align-center text-center"> --}}
           <!-- <div class="col-lg-12 col-mg-12 col-sm-12 container sub-icons"> -->
-          <a class="direct-contact" href="mailto:valerie.n.sharp93@gmail.com"> <img class="small-1 contact-icons email" src="img/email.png">Contact Me</img></a>
-          <a class="direct-contact" href=""><img class="small-1 contact-icons resume" src="img/resume.png">View resume</img></a>
-        </div>
+          {{-- <a class="direct-contact" href="mailto:valerie.n.sharp93@gmail.com">Contact Me</a> --}}
+          {{-- <a class="direct-contact" href=""></a> --}}
+        {{-- </div> --}}
 
 </div>
 <div class="  text-center bottom-nav-bar">
-  <a class="large-6 medium-6 small-6" href=""><h4>Ux/Ui Developer</h4></a>
-  <a class="large-6 medium-6 small-6 " href=""><h4>Front End Devloper</h4></a>                
+  {{-- <a class="large-6 medium-6 small-6" href=""><h4>Ux/Ui Developer</h4></a> --}}
+  {{-- <a class="large-6 medium-6 small-6 " href=""><h4>Front End Devloper</h4></a>                 --}}
 </div>
 @endsection

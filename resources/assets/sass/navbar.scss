@@ -1,0 +1,114 @@
+$border-width: 1px;
+
+nav {
+	background-color: $nav-bgc;
+	color: $brand-primary;
+}
+
+.navbar {
+	position: relative;
+	padding: 16px 8px;
+	@include clearfix;
+
+}
+// Nav positioning: Full, Fixed, Top Bottom
+
+.nav--full{
+	z-index: $zindex-navbar;
+}
+.nav-top,
+.nav-bottom {
+	position: fixed;
+	right: 0px;
+	left: 0px;
+	z-index: $zindex-navbar-fixed;
+	  @include media-breakpoint-up(sm) {
+	    @include border-radius(0);
+	  }	
+}
+.nav--top {
+	top: 0;
+}
+.nav--bottom {
+	bottom: 0;
+}
+.nav--sticky {
+	position: fixed;
+	top: 0;
+	z-index: $zindex-navbar-sticky;
+	width: 100%;
+}
+.nav--right {
+	float: right;
+}
+//
+// Brand/project name
+//
+.navbar--logo {
+  float: left;
+  margin-right: 1rem;
+  > img {
+    display: block;
+  }
+}
+
+.navbar--line {
+  float: left;
+  width: $border-width;
+  padding-top: .425rem;
+  padding-bottom: .425rem;
+  margin-right: 16px;
+  margin-left:  16px;
+  overflow: hidden;
+
+  &::before {
+    content: "\00a0";
+  }
+}
+
+// Mobile nav bar 
+
+.navbar--mobile {
+	@include media-breakpoint-down(md) {
+		padding: 5px;
+		// CHANGE THIS TO MOGULAR 
+		font-size: 17px;
+		line-height: 1;
+		background: none;
+		border: 1px solid $brand-primary;
+		&:hover, :focus {
+			text-decoration: none;
+		}
+	}	
+}
+.navbar--mobile {
+	padding: 5px;
+	// CHANGE THIS TO MOGULAR 
+	font-size: 20px;
+	line-height: 1;
+	background: none;
+	border: 1px solid $brand-primary;
+	&:hover, :focus {
+		text-decoration: none;
+	}
+}
+// need to replace the mixin for ones I create on my own
+// they just have to pull the screen size reated the the 
+// lable. Using the map fuction and bootstrap as a guildline
+.navbar--toggleable {
+  &-xs {
+    @include media-breakpoint-up(sm) {
+      display: block !important;
+    }
+  }
+  &-sm {
+    @include media-breakpoint-up(md) {
+      display: block !important;
+    }
+  }
+  &-md {
+    @include media-breakpoint-up(lg) {
+      display: block !important;
+    }
+  }
+}

@@ -32,6 +32,26 @@ class ProjectController extends Controller
     }
 
     /**
+     * Display the frontend work.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */    
+    public function frontend()
+    {
+        $projects = Project::all();
+
+        // MAKES THE RELATIONSHIP BETWEEN USER AND ENTRY
+        // NOT NEEDED IN THE PROJECT 
+        // ADMIN SHOULD SEE IT ALL 
+            // $projects = Auth::user()->project()
+            // ->orderBy('created_at', 'desc')
+            // ->get();        
+
+        return view('frontend', compact('projects'));
+    }
+
+    /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response

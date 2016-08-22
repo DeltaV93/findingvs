@@ -1,0 +1,43 @@
+w
+
+// Reset base styles
+.nav {
+	padding-left: 0px;
+	margin-bottom: 10px;
+	list-style-type: none;
+}
+// Reset the link  states
+.nav--link {
+	text-decoration: none;
+	display: inline-block;
+	&:hover {
+		text-decoration: underline;
+		color: $brand-primary;
+	}
+	&.foucs {
+		cursor: pointer;
+		color: $brand-primary;
+	}
+}
+.nav--inline {
+	.nav--item {
+		display: inline-block;
+		float: left;
+		margin-right: 20px;
+
+	}
+	.nav--item + .nav--item,
+	.nav--link + .nav--link {
+		// replace ML with var
+		margin-right: 1rem;
+	}
+}
+
+// Fixed navbars 
+.nav-top, .nav-bottom {
+	position: fixed;
+	right: 0px;
+	left: 0px;
+}
+
+

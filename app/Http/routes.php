@@ -14,11 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('frontend', 'ProjectController@frontend');
 
-// Route::get('/admin', 'AdminController@index'); 
+Route::resource('/admin', 'AdminController'); 
 Route::resource('projects', 'ProjectController');
 Route::post('projects/store', 'ProjectController@store');
-// Route::get('projects/show/', 'ProjectController@store');
 Route::get('/test', function() {
 	return view('pages.projects.partials.form');
 });
