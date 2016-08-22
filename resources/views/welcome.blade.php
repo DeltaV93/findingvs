@@ -11,7 +11,7 @@
         </div>
 
         <div class="row align-center">
-          <h1 class="text-center">Valerie Sharp</h1>
+          <h1 class="text-center text-white">Valerie Sharp</h1>
           @can('edit_work')
             <h1><a href="#">Need to make some update?</a></h1>
           @endcan 
@@ -25,6 +25,9 @@
         <div class="row align-center">
           {{-- <h3 class="text-center ">Creater of Delta<span class="deltav --}}
           <h3 class="text-white text-center">Frontend Devloper / UX Designer</h3>
+        </div>
+        <div class="row align-center">
+          <button type="button" class="hollow button">Enter</button>
         </div>
         {{-- <div class="row align-center text-center"> --}}
           <!-- <div class="col-lg-12 col-mg-12 col-sm-12 container sub-icons"> -->

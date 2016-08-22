@@ -1,8 +1,24 @@
 body {
-  color: #fff; }
+  color: white; }
 
 .wrapper {
   margin-top: 100px; }
 
 .text-white {
-  color: #fff; }
+  color: white; }
+
+.top-bar, .top-bar ul {
+  background-color: white;
+  color: #333; }
+
+.brand-logo {
+  fill: #008287; }
+
+.button.hollow {
+  font-family: 'Poiret One';
+  font-size: 15px;
+  color: white;
+  border: 2px solid white; }
+  .button.hollow:hover {
+    color: #cccccc;
+    border: 1px solid #cccccc; }

@@ -28,7 +28,7 @@ class ProjectController extends Controller
             // ->orderBy('created_at', 'desc')
             // ->get();        
 
-        return view('pages.projects.index', compact('projects'));
+        return view('pages.projects.index', compact('projects', 'urlChecker'));
     }
 
     /**
@@ -48,7 +48,7 @@ class ProjectController extends Controller
             // ->orderBy('created_at', 'desc')
             // ->get();        
 
-        return view('frontend', compact('projects'));
+        return view('frontend', compact('projects', 'urlChecker'));
     }
 
     /**

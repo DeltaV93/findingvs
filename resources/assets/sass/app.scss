@@ -1,5 +1,5 @@
 @import "font-awesome";
-// @import "foundation";
+@import "foundation";
 @import "font";
 
 /*@import url(https://fonts.googleapis.com/css?family=Quattrocento|Unica+One);
@@ -27,7 +27,7 @@ body {
   /*font-family: 'Poiret One';*/
 
 }
-h1, h2, h3, h4, h5, h6, a {
+h1, h2, h3, h4, h5, h6, a, button {
   font-family: 'Poiret One';
 }
 h1 {

@@ -12,6 +12,7 @@ class Project extends Model
      * @var array
      */
     protected $table = 'projects';
+    // protected $urlChecker = Request::path() != '/';
     
     /**
      * The attributes that are mass assignable.
