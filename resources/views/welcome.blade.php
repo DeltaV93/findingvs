@@ -5,29 +5,31 @@
 @section('description')
 
 @section('content')
-<div class="">
-       <div class="colums row align-center inside">
-            <img class="float-center small-3 medium-3 large-2 main-logo" src="img/deltav_white.svg">
+<div class="align-center">
+       <div class="colums  inside">
+            <img alt="Silhouette of a phoneix/bird" class="float-center small-offset-4 small-3 medium-3 large-2 large-offset-5 main-logo" src="img/deltav_white.svg">
         </div>
 
-        <div class="row align-center">
+        <div class="row">
           <h1 class="text-center text-white">Valerie Sharp</h1>
           @can('edit_work')
             <h1><a href="#">Need to make some update?</a></h1>
-          @endcan 
+          @endcan
 
           @can('manage_user')
             <h1><a href="#">Edit these users</a></h1>
-          @endcan 
+          @endcan
 
         </div>
 
-        <div class="row align-center">
-          {{-- <h3 class="text-center ">Creater of Delta<span class="deltav --}}
-          <h3 class="text-white text-center">Frontend Devloper / UX Designer</h3>
+        <div class="row">
+               <h3 class="text-white text-center">Frontend Devloper / UX Designer</h3>
         </div>
-        <div class="row align-center">
-          <button type="button" class="hollow button">Enter</button>
+
+        <div class="row">
+               <div class="large-2 medium-centered medium-2 small-5 small-centered large-centered columns ">
+               <a aria-label="Enter website" type="button" data-btn="enter" href="{{ url('/about') }}" class="hollow button">ENTER</a>
+               </div>
         </div>
         {{-- <div class="row align-center text-center"> --}}
           <!-- <div class="col-lg-12 col-mg-12 col-sm-12 container sub-icons"> -->

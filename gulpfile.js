@@ -1,4 +1,6 @@
 var elixir = require('laravel-elixir');
+var browserSync = require('laravel-elixir-browsersync');
+require('elixir-imagemin');
 
 /*
  |--------------------------------------------------------------------------
@@ -21,10 +23,10 @@ var paths = {
    'jquery': components + '/jquery/dist/',
    'foundation': components + '/foundation/',
    'fontawesome': components + '/font-awesome/'
-}
-
+};
 // Begin Elixir Project
 elixir(function(mix) {
+   mix.imagemin();
 
   // Add Styles to project
   mix.copy(paths.foundation + 'css/foundation.css', 'public/css/foundation.css')
@@ -45,10 +47,11 @@ elixir(function(mix) {
 
   // Merge Scripts
   mix.scripts([
-    'app.js', 
+    'app.js',
   ],'public/js/app.js', 'resources/js');
 
   // Compile SASS
-  mix.sass('valerie.scss');
+  mix.sass('valerie.scss')
+    .browserSync({ proxy: 'val.dev'});
 
 });
