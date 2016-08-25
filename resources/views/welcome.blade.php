@@ -40,6 +40,20 @@
 </div>
 <div class="  text-center bottom-nav-bar">
   {{-- <a class="large-6 medium-6 small-6" href=""><h4>Ux/Ui Developer</h4></a> --}}
-  {{-- <a class="large-6 medium-6 small-6 " href=""><h4>Front End Devloper</h4></a>                 --}}
+  {{-- <a class="large-6 medium-6 small-6 " href=""><h4>Front End Devloper</h4></a>--}}
 </div>
+@endsection
+
+@section('scripts')
+<script >
+
+$( document ).ready(function() {
+
+  var enterWebsite = function() {
+    window.location.replace("/about");
+  };
+
+  setInterval(enterWebsite, 9000);
+});
+</script>
 @endsection
