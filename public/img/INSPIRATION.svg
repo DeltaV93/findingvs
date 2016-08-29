@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<path fill="none" stroke="#333333" stroke-width="2" stroke-miterlimit="10" d="M27,10c0-4.418-3.582-8-8-8s-8,3.582-8,8
+		c0,2.959,1.611,5.537,4,6.921V20h8v-3.079C25.389,15.537,27,12.959,27,10z"/>
+	<line fill="none" stroke="#333333" stroke-width="2" stroke-miterlimit="10" x1="19" y1="20" x2="19" y2="12"/>
+	<circle fill="none" stroke="#333333" stroke-width="2" stroke-miterlimit="10" cx="19" cy="10" r="2"/>
+	<path fill="none" stroke="#333333" stroke-width="2" stroke-miterlimit="10" d="M55.63,20H12.403
+		c-0.513,2.665-0.486,5.241-0.072,7.687L6,38.982l7.016,1.6v12.4h10v9h22V48.527C51.653,43.958,56.005,36.308,56,27.64l-0.002-3.649
+		C55.998,22.627,55.867,21.295,55.63,20z"/>
+	<polyline fill="none" stroke="#333333" stroke-width="2" stroke-miterlimit="10" points="48,20 54,6 58,3 58,8 53,20 	"/>
+	<line fill="none" stroke="#333333" stroke-width="2" stroke-miterlimit="10" x1="54" y1="6" x2="58" y2="8"/>
+	<polyline fill="none" stroke="#333333" stroke-width="2" stroke-miterlimit="10" points="36,20 31,9 29,10 31,3 38,6 36,7 42,20 	
+		"/>
+	<path fill="none" stroke="#333333" stroke-width="2" stroke-miterlimit="10" d="M29,20v-3c0-1.657,1.343-3,3-3h10
+		c1.657,0,3-1.343,3-3V7"/>
+	<rect x="43" y="2" fill="none" stroke="#333333" stroke-width="2" stroke-miterlimit="10" width="4" height="4"/>
+	<path fill="none" stroke="#333333" stroke-width="2" stroke-miterlimit="10" d="M17,24L17,24c0,2.209,1.791,4,4,4h0
+		c2.209,0,4-1.791,4-4v0"/>
+</g>
+</svg>

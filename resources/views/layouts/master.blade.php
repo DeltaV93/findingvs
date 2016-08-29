@@ -11,7 +11,6 @@
 
         {{-- APP STYLESHEETS --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.css">
-    {!! HTML::style('css/foundation.css') !!}
     {!! HTML::style('css/app.css') !!}
     {!! HTML::style('css/valerie.css') !!}
     <body id="gradient">

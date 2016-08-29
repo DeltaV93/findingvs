@@ -5,7 +5,7 @@
 @section('description')
 
 @section('content')
-<div class="align-center">
+<div class="align-center main">
        <div class="colums  inside">
             <img alt="Silhouette of a phoneix/bird" class="float-center small-offset-4 small-3 medium-3 large-2 large-offset-5 main-logo" src="img/deltav_white.svg">
         </div>
@@ -26,11 +26,11 @@
                <h3 class="text-white text-center">Frontend Devloper / UX Designer</h3>
         </div>
 
-        <div class="row">
-               <div class="large-2 medium-centered medium-2 small-5 small-centered large-centered columns ">
-               <a aria-label="Enter website" type="button" data-btn="enter" href="{{ url('/about') }}" class="hollow button">ENTER</a>
+        <row class=" row">
+               <div class="large-2 medium-centered medium-2 small-4 small-centered  large-centered column ">
+               <a aria-label="Enter website" type="button" data-btn="enter" href="{{ url('/about') }}" class="hollow button">Enter</a>
                </div>
-        </div>
+        </row>
         {{-- <div class="row align-center text-center"> --}}
           <!-- <div class="col-lg-12 col-mg-12 col-sm-12 container sub-icons"> -->
           {{-- <a class="direct-contact" href="mailto:valerie.n.sharp93@gmail.com">Contact Me</a> --}}
@@ -53,7 +53,7 @@ $( document ).ready(function() {
     window.location.replace("/about");
   };
 
-  setInterval(enterWebsite, 9000);
+  // setInterval(enterWebsite, 9000);
 });
 </script>
 @endsection

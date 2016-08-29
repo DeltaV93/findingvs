@@ -1,12 +1,12 @@
 // Core
-// @import "normalize";
+@import "normalize";
+@import "../foundation";
 @import "variables";
 // @import "base";
 // @import "mixins";
-
-
+// resources/assets/sass/valerie.scss
 // UI Kit
-// @import "type";
+@import "type";
 // @import "buttons";
 // @import "nav";
 // @import "navbar";
@@ -14,7 +14,10 @@
 // @import "grid";
 // @import "posts";
 // @import "helpers";
-
+@import "panels";
+.about {
+	margin-top: 40px;
+}
 // Vertebrae
 // @import "theme";
 body{
@@ -22,7 +25,7 @@ body{
 	// background-color: lightblue;
 	// font-size: 18px;
 }
-.wrapper {
+.main {
 	margin-top: 100px;
 }
 .text-white {
@@ -60,4 +63,15 @@ body{
 .container--white {
   background-color: $white;
   color: $black;
+	padding-bottom: rem-calc(20px);
+	padding-top: rem-calc(5px);
 }
+
+.containter--about p {
+  // padding: 0 100px;
+  padding: 1rem;
+}
+[data-change-title |= default]:active {
+	color: $primay;
+}
+// data-change-content="default"
