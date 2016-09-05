@@ -25,12 +25,12 @@
         <div class="row">
                <h3 class="text-white text-center">Frontend Devloper / UX Designer</h3>
         </div>
-
-        <row class=" row">
-               <div class="large-2 medium-centered medium-2 small-4 small-centered  large-centered column ">
-               <a aria-label="Enter website" type="button" data-btn="enter" href="{{ url('/about') }}" class="hollow button">Enter</a>
-               </div>
-        </row>
+        
+        <div class="row">
+            <div class="small-6 small-centered text-center columns">
+                <a aria-label="Enter website" type="button" data-btn="enter" href="{{ url('/about') }}" href="#" class="hollow button">Enter</a>
+            </div>
+        </div>
         {{-- <div class="row align-center text-center"> --}}
           <!-- <div class="col-lg-12 col-mg-12 col-sm-12 container sub-icons"> -->
           {{-- <a class="direct-contact" href="mailto:valerie.n.sharp93@gmail.com">Contact Me</a> --}}

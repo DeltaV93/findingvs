@@ -17,11 +17,11 @@
     {{-- <body style="background-color: lightblue;"> --}}
 {{-- DO NOT SHOW NAVBAR ON WELCOME --}}
         @if (Request::path() != '/')
-            <div class="top-bar">
+            <div class="top-bar sticky">
               <div class="top-bar-left">
                 <ul class="dropdown menu" data-dropdown-menu>
                   <li class="menu-text"> </li>
-                  <li><a href="#">Frontend</a></li>
+                  <li><a href="{{ url('/frontend') }}">Frontend</a></li>
                   <li><a href="#">UX</a></li>
                   <li><a href="#">Resume</a></li>
                   <li><a href="#">Contact</a></li>

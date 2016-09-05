@@ -16,7 +16,7 @@
 // @import "helpers";
 @import "panels";
 .about {
-	margin-top: 40px;
+	margin-top: 15px;
 }
 // Vertebrae
 // @import "theme";
@@ -31,7 +31,9 @@ body{
 .text-white {
 	color: $white;
 }
-
+.top-bar {
+  height: 2.9125rem;	
+}
 .top-bar, .top-bar ul {
 	background-color: $white;
 	color: #333;
@@ -71,7 +73,8 @@ body{
   // padding: 0 100px;
   padding: 1rem;
 }
-[data-change-title |= default]:active {
+[data-change-title |= default]:active    /* height: 2.8125rem; */ {
 	color: $primay;
 }
+
 // data-change-content="default"

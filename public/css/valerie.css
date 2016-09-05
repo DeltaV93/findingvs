@@ -6661,6 +6661,9 @@ a:hover {
 .text-primary {
   color: #008287; }
 
+.text-white {
+  color: #fff; }
+
 .img-panel, .img-panel__art, .img-panel__general, .img-panel__code {
   border-style: solid;
   border-width: 1px;
@@ -6718,8 +6721,14 @@ a:hover {
     .resume-panel h1.subheader, .resume-panel h2.subheader, .resume-panel h3.subheader, .resume-panel h4.subheader, .resume-panel h5.subheader, .resume-panel h6.subheader {
       line-height: 1.4; }
 
+@media only screen and (max-width: 40em) {
+  .img-panel, .img-panel__art, .img-panel__general, .img-panel__code {
+    background-size: 25rem;
+    height: 18.75rem; } }
+
+/* Define mobile styles */
 .about {
-  margin-top: 40px; }
+  margin-top: 15px; }
 
 body {
   color: white; }
@@ -6729,6 +6738,9 @@ body {
 
 .text-white {
   color: white; }
+
+.top-bar {
+  height: 2.9125rem; }
 
 .top-bar, .top-bar ul {
   background-color: white;
