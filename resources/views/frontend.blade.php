@@ -6,15 +6,21 @@
 @endsection
 
 @section('content')
-<h1 class="text-center text-white">Frontend Development</h1>
+<h1 class="text-center text-white">Frontend Projects</h1>
 
 <div class="container">
-	<div class="row ">
+	<div class="row">
 		@foreach ($projects as $project)
-			<div class="">
-				<h2>{{ $project->project_title }}</h2>
-				<img src="{{ $project->project_image  }}">
-				<p>{{ $project->project_description  }}</p>
+			<div class="large-6 column frontend">
+				<h2 class="fronted--title">{{ $project->project_title }}</h2>
+				<a class="fronted--link" href="" target="_blank"><img src="{{ $project->project_image  }}"></a>
+				<p class="frontend--description">{{ $project->project_description  }}</p>
+				<h3>Tools Used</h3>
+				<ul class="inline-list">
+					<li>One</li>
+					<li>Two</li>
+					<li>Three</li>
+				</ul>
 			</div>
 		@endforeach
 	</div>

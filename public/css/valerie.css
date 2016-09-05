@@ -6673,9 +6673,9 @@ a:hover {
   background: #f2f2f2;
   color: #333333;
   background-color: transparent;
-  background-size: 30rem;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: top, center;
+  background-position: top,center;
   background-clip: padding-box;
   height: 25rem;
   border: none; }
@@ -6692,10 +6692,10 @@ a:hover {
       line-height: 1.4; }
 
 .img-panel__art {
-  background-image: url("http://www.arttreeoflife.com/public/img/mural_p75.jpg"); }
+  background-image: url("../img/art_pic_lg_.png"); }
 
 .img-panel__general {
-  background-image: url("https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/13698025_1169702026384793_1376895979484016748_o.jpg"); }
+  background-image: url("../img/grad_pic_lg.png"); }
 
 .resume-panel {
   border-style: solid;

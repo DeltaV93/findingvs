@@ -26,7 +26,7 @@
             <div class="top-bar sticky">
               <div class="top-bar-left">
                 <ul class="dropdown menu" data-dropdown-menu>
-                  <li class="menu-text"> </li>
+                  <li class="menu-text text-primary"> Valerie Sharp</li>
                   <li><a href="{{ url('/frontend') }}">Frontend</a></li>
                   <li><a href="#">UX</a></li>
                   <li><a href="#">Resume</a></li>
