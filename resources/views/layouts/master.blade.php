@@ -3,9 +3,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Valerie Sharp,Designer,Developer,UI,UX,Valerie Sharp Devlopment,Web Design,Interface Design,User Experience Design,Front-End Development,CSS,California,los angeles,Freelance Developer,MODX developer">
+    <meta property="og:description" content="Freelance Front-end Developer producing high quality responsive websites and exceptional user experience">
+    {{-- <meta property="og:description" content="A Front-end Developer's Portfolio"> --}}
+    <meta name="description" content="Valerie Sharp is a UX Designer and Frontend developer specializing in web, user interfaces and user experiences. She designs, She codes, and is available for work.">
+    <meta name="author" content="Valerie Sharpr">
+    <meta name="copyright" content="Copyright Valerie Sharp">
 
-        <title>@yield('title') | Valerie Sharp</title>
-        <meta name="description" content="@yield('description')">
+    <title>@yield('title') | Valerie Sharp</title>
+    <meta name="description" content="@yield('description')">
 
     <link rel="icon" href="{!! asset('favicon.png') !!}" type="image/x-icon">
 
