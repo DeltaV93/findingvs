@@ -21,8 +21,11 @@ Route::get('about', function(){
 Route::resource('/admin', 'AdminController'); 
 Route::resource('projects', 'ProjectController');
 Route::post('projects/store', 'ProjectController@store');
+// Route::get('/test', function() {
+// 	return view('pages.projects.partials.form');
+// });
 Route::get('/test', function() {
-	return view('pages.projects.partials.form');
+	return view('test');
 });
 
 

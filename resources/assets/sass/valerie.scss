@@ -15,6 +15,18 @@
 // @import "posts";
 // @import "helpers";
 @import "panels";
+
+$white:			#FFFFFF;
+// branding colors 
+$brand-primary: #2FAFB0;
+$brand-purple:	#8277AF;
+$brand-blue:	#136582;
+$brand-yellow:	#FFBC42;
+
+$text-color:	#565453;
+$text__darker:	#2B3D41;
+$text__light:	#9B9B9B;
+
 .about {
 	margin-top: 15px;
 }
@@ -62,7 +74,7 @@ body{
 	// display: block;
 }
 
-.container--white {
+.container__white {
   background-color: $white;
   color: $black;
 	padding-bottom: rem-calc(20px);
@@ -78,3 +90,37 @@ body{
 }
 
 // data-change-content="default"
+// welcome page 
+// .welcome--logo{
+//   width: rem-calc(700);
+//   z-index: -10;
+// }
+.welcome--container {
+	background-image: url('../img/logo_main_page.png');
+	height: rem-calc(575);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	
+}
+.welcome--container h1 {
+	margin-top: rem-calc(180);
+}
+// about page 
+.about-btn {
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	color: $white;
+}
+.about-btn__psych {
+	@inclue .about-btn;
+	background-color: $brand-primary;
+	color: $white;
+}
+.about-btn__code {
+	background-color: $brand-purple;
+}
+.about-btn__art {
+	background-color: $brand-blue;
+}

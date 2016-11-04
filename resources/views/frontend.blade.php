@@ -17,9 +17,9 @@
 				<p class="frontend--description">{{ $project->project_description  }}</p>
 				<h3>Tools Used</h3>
 				<ul class="inline-list">
-					<li>One</li>
-					<li>Two</li>
-					<li>Three</li>
+					<li>One <i class="fa fa-html5" aria-hidden="true"></i></li>
+					<li>Two <i class="fa fa-html5" aria-hidden="true"></i></li>
+					<li>Three <i class="fa fa-html5" aria-hidden="true"></i></li>
 				</ul>
 			</div>
 		@endforeach

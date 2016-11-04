@@ -6721,29 +6721,23 @@ a:hover {
     .resume-panel h1.subheader, .resume-panel h2.subheader, .resume-panel h3.subheader, .resume-panel h4.subheader, .resume-panel h5.subheader, .resume-panel h6.subheader {
       line-height: 1.4; }
 
-@media only screen and (max-width: 40em) {
-  .img-panel, .img-panel__art, .img-panel__general, .img-panel__code {
-    background-size: 25rem;
-    height: 18.75rem; } }
-
-/* Define mobile styles */
 .about {
   margin-top: 15px; }
 
 body {
-  color: white; }
+  color: #FFFFFF; }
 
 .main {
   margin-top: 100px; }
 
 .text-white {
-  color: white; }
+  color: #FFFFFF; }
 
 .top-bar {
   height: 2.9125rem; }
 
 .top-bar, .top-bar ul {
-  background-color: white;
+  background-color: #FFFFFF;
   color: #333; }
 
 .brand-logo {
@@ -6753,8 +6747,8 @@ body {
   font-family: 'Poiret One';
   font-size: 15px;
   font-transform: uppercase;
-  color: white;
-  border: 1px solid white;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
   letter-spacing: 2.5px;
   font-weight: 700; }
   .button.hollow:hover {
@@ -6764,8 +6758,8 @@ body {
 [data-btn|=enter] {
   margin-top: 30px; }
 
-.container--white {
-  background-color: white;
+.container__white {
+  background-color: #FFFFFF;
   color: #333;
   padding-bottom: 1.25rem;
   padding-top: 0.3125rem; }
@@ -6775,3 +6769,30 @@ body {
 
 [data-change-title|=default]:active {
   color: #008287; }
+
+.welcome--container {
+  background-image: url("../img/logo_main_page.png");
+  height: 35.9375rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; }
+
+.welcome--container h1 {
+  margin-top: 11.25rem; }
+
+.about-btn {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  color: #FFFFFF; }
+
+.about-btn__psych {
+  @inclue .about-btn;
+  background-color: #2FAFB0;
+  color: #FFFFFF; }
+
+.about-btn__code {
+  background-color: #8277AF; }
+
+.about-btn__art {
+  background-color: #136582; }
