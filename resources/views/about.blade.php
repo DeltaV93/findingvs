@@ -27,51 +27,61 @@
         </div>
       </div>
     </div>
-    <p id="content" data-change-content="code" class="large-8 large-centered small-text-justify hide">Learning to code started
+{{--     <p id="content" data-change-content="code" class="large-8 large-centered small-text-justify hide">Learning to code started
       as a new year resolution that quickly turn into a passion. Being mostly self
       taught, I thrived on the workshops proved by non profites such as <a target="_blank" href="https://www.girldevelopit.com/chapters/los-angeles">
       <span>Girl Devlop It Los Angles</span></a>. I landed my first Front End devloper position at <a href="http://www.metalab.csun.edu" target="_blank"><span>
-      Meta+ Lab</span></a> where I was able polish my skills and work on real world applications while benifiting form mentorship.
+      Meta+ Lab</span></a> where I was able polish my skills and work on real world applications while benifiting from amazing mentorship.
     </p>
     <p id="content" data-change-content="psych" class="large-8 large-centered small-text-justify hide">Learning psychology
       taught me about the importances
     </p>
     <p id="content" data-change-content="art" class="large-8 large-centered small-text-justify hide"> Art has been a part of my life for as long as I could remember.
-      As an art minor, I focused on painting. During my time at CSUN I had the pleasure of working with an amzing group to paint
-      the mural <a href="http://arttreeoflife.com/" target="_blank"><em>Art De La Vida: Tree of Life Honorning Diversity, Icons, And Inspiration</em></a>.
-      It was not hard for me to take the skills I gained from the art classes
+      As an art minor, I focused on painting. During my time at CSUN I had the pleasure of working with an amzing group to artist to paint <a href="http://arttreeoflife.com/" target="_blank"><em>Art De La Vida: Tree of Life Honorning Diversity, Icons, And Inspiration</em></a> mural, located in CSUN Art department.
     </p>
-    <p id="content" data-change-content="default" class="large-8 large-centered small-text-justify ">Graduated from
-      California State University Northridge with a Bachlors in Psychology and a
-      Minor in Arts. Durning my time in college centred my studies around
-      Psychology, Code, and Art.
-    </p>
+    <p id="content" data-change-content="default" class="large-8 large-centered small-text-justify ">Studying  psycholgoy showed thought me how and why people thing the way the do. 
+    </p> --}}
+    <p class="large-9 large-centered small-text-justify ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
-  <div class="container container__white containter--recent-projects">
+  <div class="container container__off-white containter--recent-projects">
     <h1 class="h2 text-center">Recent Projects</h1>
     <div class="project-boxs">
-      <div class="project-box large-4">
+      <div class="project-box column large-4 panel">
+          <img class="test-img" src="">
         <div class="project-box--info__bottom">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore.
-            <a href="#">Read More</a>
-          </p>
+          <div class="container panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore.
+              <a href="#">Read More</a>
+            </p>
+          </div>
         </div>
       </div>
-      <div class="project-box large-4">
+      <div class="project-box column large-4 panel">
+          <img class="test-img" src="">
         <div class="project-box--info__bottom">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore.
-            <a href="#">Read More</a>
-          </p>
+          <div class="container panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore.
+              <a href="#">Read More</a>
+            </p>
+          </div>
         </div>
       </div>
-      <div class="project-box large-4">
+      <div class="project-box column large-4 panel">
+          <img class="test-img" src="">
         <div class="project-box--info__bottom">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore.
-            <a href="#">Read More</a>
-          </p>
+          <div class="container panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore.
+              <a href="#">Read More</a>
+            </p>
+          </div>
         </div>
       </div>
     </div>

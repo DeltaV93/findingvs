@@ -17,11 +17,13 @@
 @import "panels";
 
 $white:			#FFFFFF;
+$off-white:		#F4F4F4;
 // branding colors 
 $brand-primary: #2FAFB0;
 $brand-purple:	#8277AF;
 $brand-blue:	#136582;
 $brand-yellow:	#FFBC42;
+$brand-brown:	#565453;
 
 $text-color:	#565453;
 $text__darker:	#2B3D41;
@@ -38,7 +40,7 @@ body{
 	// font-size: 18px;
 }
 .main {
-	margin-top: 100px;
+	margin-top: 15px;
 }
 .text-white {
 	color: $white;
@@ -80,6 +82,12 @@ body{
 	padding-bottom: rem-calc(20px);
 	padding-top: rem-calc(5px);
 }
+.container__off-white {
+	background-color: $off-white;
+	color: $black;
+	padding-bottom: rem-calc(20px);
+	padding-top: rem-calc(5px);
+}
 
 .containter--about p {
   // padding: 0 100px;
@@ -107,20 +115,39 @@ body{
 	margin-top: rem-calc(180);
 }
 // about page 
+.project-box {
+	padding: 0;
+}
+.test-img {
+	background-color: $brand-primary;
+	height: 200px;
+	width: 100%;
+}
+.project-box--info__bottom .panel {
+	background-color: $brand-brown;
+	border: none;
+	margin-bottom: 0;
+	& p {
+		color: $white;
+	}
+}
 .about-btn {
-	width: 100px;
-	height: 100px;
-	padding: 10px;
-	color: $white;
+	padding: 20px 10px;
+	// border-radius: 100%;
+	& h3{
+		color: $white;
+		text-align: center;
+	}	
 }
 .about-btn__psych {
-	@inclue .about-btn;
+	@extend .about-btn;
 	background-color: $brand-primary;
-	color: $white;
 }
 .about-btn__code {
-	background-color: $brand-purple;
+	@extend .about-btn;
+	background-color: $brand-yellow;
 }
 .about-btn__art {
+	@extend .about-btn;
 	background-color: $brand-blue;
 }
