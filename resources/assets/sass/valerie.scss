@@ -76,13 +76,13 @@ body{
 	// display: block;
 }
 
-.container__white {
+.container--white {
   background-color: $white;
   color: $black;
 	padding-bottom: rem-calc(20px);
 	padding-top: rem-calc(5px);
 }
-.container__off-white {
+.container--off-white {
 	background-color: $off-white;
 	color: $black;
 	padding-bottom: rem-calc(20px);
@@ -150,4 +150,12 @@ body{
 .about-btn__art {
 	@extend .about-btn;
 	background-color: $brand-blue;
+}
+
+// project 
+.projects {
+	margin-top: 50px;
+}
+img {
+	background-color: $brand-primary;
 }

@@ -6758,13 +6758,13 @@ body {
 [data-btn|=enter] {
   margin-top: 30px; }
 
-.container__white {
+.container--white {
   background-color: #FFFFFF;
   color: #333;
   padding-bottom: 1.25rem;
   padding-top: 0.3125rem; }
 
-.container__off-white {
+.container--off-white {
   background-color: #F4F4F4;
   color: #333;
   padding-bottom: 1.25rem;
@@ -6815,3 +6815,9 @@ body {
 
 .about-btn__art {
   background-color: #136582; }
+
+.projects {
+  margin-top: 50px; }
+
+img {
+  background-color: #2FAFB0; }

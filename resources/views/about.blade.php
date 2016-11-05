@@ -5,7 +5,7 @@
 
 <div class="container about">
   <div class="img-panel img-panel__general"></div>
-  <div class="container container__white containter--about">
+  <div class="container container--white containter--about">
     <h1 class="h2 text-center">About Me</h1>
     <div class="row text-center">
       <div class=" column small-4 large-4 psych">
@@ -48,7 +48,7 @@
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
-  <div class="container container__off-white containter--recent-projects">
+  <div class="container container--off-white containter--recent-projects">
     <h1 class="h2 text-center">Recent Projects</h1>
     <div class="project-boxs">
       <div class="project-box column large-4 panel">

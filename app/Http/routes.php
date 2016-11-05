@@ -18,6 +18,9 @@ Route::get('frontend', 'ProjectController@frontend');
 Route::get('about', function(){
 	return view('about');
 });
+Route::get('project', function(){
+	return view('projects');
+});
 Route::resource('/admin', 'AdminController'); 
 Route::resource('projects', 'ProjectController');
 Route::post('projects/store', 'ProjectController@store');
