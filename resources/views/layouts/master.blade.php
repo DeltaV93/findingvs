@@ -29,8 +29,8 @@
                   <li class="menu-text text-primary"> </li>
                   <li><a href="{{ url('/about') }}">Home</a></li>
                   <li><a href="{{ url('/project') }}">Projects</a></li>
-                  <li><a href="#">Resume</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a href="{{ url('/resume') }}">Resume</a></li>
+                  <li><a href="{{ url('/contact') }}">Contact</a></li>
                 </ul>
               </div>
             </div>

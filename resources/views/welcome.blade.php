@@ -7,7 +7,7 @@
 @section('content')
 <div class="align-center main small-12 large-12 welcome--container">
   <div class="row">
-    <h1 class="text-center text-white">Valerie Sharp</h1>
+    <h1 class="text-center font--title text-white">Valerie Sharp</h1>
     @can('edit_work')
       <h1><a href="#">Need to make some update?</a></h1>
     @endcan

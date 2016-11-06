@@ -1,11 +1,34 @@
+$white:			#FFFFFF;
+$off-white:		#F4F4F4;
+// branding colors 
+$brand-primary: #2FAFB0;
+$brand-purple:	#8277AF;
+$brand-blue:	#136582;
+$brand-yellow:	#FFBC42;
+$brand-brown:	#565453;
+
+$text-color:	$brand-brown;
+$alt-color:		#2B3D41;
+$text__darker:	#2B3D41;
+$text__light:	#9B9B9B;
+
+$alpha:			0.5;
+
 // Core
 @import "normalize";
+
 @import "../foundation";
+
 @import "variables";
+
+// Functions 
+@import "functions/power";
+@import "functions/modular-scale";
 // @import "base";
 // @import "mixins";
 // resources/assets/sass/valerie.scss
 // UI Kit
+// @import "font";
 @import "type";
 // @import "buttons";
 // @import "nav";
@@ -16,29 +39,16 @@
 // @import "helpers";
 @import "panels";
 
-$white:			#FFFFFF;
-$off-white:		#F4F4F4;
-// branding colors 
-$brand-primary: #2FAFB0;
-$brand-purple:	#8277AF;
-$brand-blue:	#136582;
-$brand-yellow:	#FFBC42;
-$brand-brown:	#565453;
-
-$text-color:	#565453;
-$text__darker:	#2B3D41;
-$text__light:	#9B9B9B;
+#gradient {
+  position: absolute;
+  width: 100%;
+}
 
 .about {
 	margin-top: 15px;
 }
 // Vertebrae
 // @import "theme";
-body{
-	color: $white;
-	// background-color: lightblue;
-	// font-size: 18px;
-}
 .main {
 	margin-top: 15px;
 }
@@ -58,7 +68,7 @@ body{
 }
 
 .button.hollow {
-	font-family: 'Poiret One';
+	// font-family: $font-body;
 	font-size: 15px;
 	font-transform: uppercase;
 	color: $white;
@@ -132,24 +142,12 @@ body{
 	}
 }
 .about-btn {
-	padding: 20px 10px;
+	// padding: 20px 10px;
 	// border-radius: 100%;
 	& h3{
-		color: $white;
+		// color: $white;
 		text-align: center;
 	}	
-}
-.about-btn__psych {
-	@extend .about-btn;
-	background-color: $brand-primary;
-}
-.about-btn__code {
-	@extend .about-btn;
-	background-color: $brand-yellow;
-}
-.about-btn__art {
-	@extend .about-btn;
-	background-color: $brand-blue;
 }
 
 // project 
@@ -157,5 +155,87 @@ body{
 	margin-top: 50px;
 }
 img {
-	background-color: $brand-primary;
+	// background-color: $brand-primary;
+}
+
+// resume 
+.resume--img {
+	top: 20px;
+	right: 25px;
+}
+.panel--circle {
+	background-color: rgba($white, $alpha);
+	border: none;
+	border-radius: 100%;
+	& img {
+		border-radius: 100%;
+	}
+}
+body > div.wrapper > div.row > div.column.large-2 > div {
+	height: 170px;
+	width: 170px;	
+}
+body > div.wrapper > div.row > div.column.large-2 > div > div {
+	height: 130px;
+	width: 130px;	
+}
+.resume__name {
+	margin-bottom: -6px;
+	top: 22px;
+}
+// Nav bar
+.dropdown {
+	height: 35px;
+}
+
+.resume__name, 
+.resume__title {
+	@extend .text--white;
+}
+.resume__heading--top {
+	margin-bottom: 10px;
+	&:before {
+		content: "\2003";
+		height: 2px;
+		width: rem-calc(60);
+		background-color: $brand-primary;
+		position: absolute;
+		margin-top: rem-calc(40);
+		
+	}	
+}
+.heading {
+	margin-bottom: 20px;
+	&:before {
+		content: "\2003";
+		height: 2px;
+		width: rem-calc(60);
+		background-color: $brand-primary;
+		position: absolute;
+		margin-top: rem-calc(40);
+		
+	}
+}
+.job h5,
+.job h6 {
+	color: $alt-color;
+}
+.job__date {
+	color: $text__light;
+}
+// 
+// ___Progress Bars___
+// 
+$meter-radius:			10px;
+$progress-background:	lighten($text__light, 20%);
+$progress-radius:		15px;
+$meter-radius:			10px;
+$meter-background:		$brand-brown;
+.progress.secondary .progress-meter {
+	background-color: $meter-background;
+	border-radius: $meter-radius;
+}
+.progress {
+	background-color: $progress-background;
+	border-radius: $progress-radius;	
 }

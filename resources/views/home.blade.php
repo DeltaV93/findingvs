@@ -34,6 +34,6 @@
 </div>
 <div class="  text-center bottom-nav-bar">
   <a class="large-6 medium-6 small-6" href=""><h4>Ux/Ui Developer</h4></a>
-  <a class="large-6 medium-6 small-6 " href=""><h4>Front End Devloper</h4></a>                
+  <a class="large-6 medium-6 small-6 " href=""><h4>Frontend Devloper</h4></a>                
 </div>
 @endsection

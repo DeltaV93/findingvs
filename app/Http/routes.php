@@ -21,6 +21,9 @@ Route::get('about', function(){
 Route::get('project', function(){
 	return view('projects');
 });
+Route::get('resume', function(){
+	return view('resume');
+});
 Route::resource('/admin', 'AdminController'); 
 Route::resource('projects', 'ProjectController');
 Route::post('projects/store', 'ProjectController@store');

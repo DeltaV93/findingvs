@@ -30,7 +30,7 @@
 {{--     <p id="content" data-change-content="code" class="large-8 large-centered small-text-justify hide">Learning to code started
       as a new year resolution that quickly turn into a passion. Being mostly self
       taught, I thrived on the workshops proved by non profites such as <a target="_blank" href="https://www.girldevelopit.com/chapters/los-angeles">
-      <span>Girl Devlop It Los Angles</span></a>. I landed my first Front End devloper position at <a href="http://www.metalab.csun.edu" target="_blank"><span>
+      <span>Girl Devlop It Los Angles</span></a>. I landed my first Frontend devloper position at <a href="http://www.metalab.csun.edu" target="_blank"><span>
       Meta+ Lab</span></a> where I was able polish my skills and work on real world applications while benifiting from amazing mentorship.
     </p>
     <p id="content" data-change-content="psych" class="large-8 large-centered small-text-justify hide">Learning psychology
@@ -50,7 +50,7 @@
   </div>
   <div class="container container--off-white containter--recent-projects">
     <h1 class="h2 text-center">Recent Projects</h1>
-    <div class="project-boxs">
+    <div class="project-boxs row">
       <div class="project-box column large-4 panel">
           <img class="test-img" src="">
         <div class="project-box--info__bottom">
