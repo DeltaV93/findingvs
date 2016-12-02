@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="78px" viewBox="0 0 86 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>WireFrames</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Resume-Copy" transform="translate(-1130.000000, -857.000000)" stroke-width="2" stroke="#333333">
+            <g id="WireFrames" transform="translate(1131.000000, 858.000000)">
+                <g id="EMPLOYEE-MANAGEMENT">
+                    <g>
+                        <g id="Layer_1_1_">
+                            <g id="Group">
+                                <path d="M5.53922027,76 C2.49264912,76 0,73.72 0,70.9333333 L0,24.0666667 C0,21.28 2.49264912,19 5.53922027,19 L77.5490838,19 C80.595655,19 83.0883041,21.28 83.0883041,24.0666667 L83.0883041,70.9333333 C83.0883041,73.72 80.595655,76 77.5490838,76 L5.53922027,76 L5.53922027,76 Z" id="Shape"></path>
+                                <path d="M5.53922027,49.4 L5.53922027,39.2666667" id="Shape"></path>
+                                <path d="M5.53922027,57 L5.53922027,54.4666667" id="Shape"></path>
+                                <ellipse id="Oval" cx="75.4718762" cy="48.1333333" rx="3.46201267" ry="3.16666667"></ellipse>
+                                <rect id="Rectangle-path" x="11.0784405" y="24.0666667" width="56.7770078" height="46.8666667"></rect>
+                                <ellipse id="Oval" cx="27.6961014" cy="38" rx="4.1544152" ry="3.8"></ellipse>
+                                <path d="M31.8505166,48.1333333 C31.8505166,46.0344667 29.9907234,44.3333333 27.6961014,44.3333333 L27.6961014,44.3333333 C25.4014794,44.3333333 23.5416862,46.0344667 23.5416862,48.1333333" id="Shape"></path>
+                                <ellipse id="Oval" cx="27.6961014" cy="39.2666667" rx="11.0784405" ry="10.1333333"></ellipse>
+                                <path d="M42.9289571,29.1333333 L63.7010331,29.1333333" id="Shape"></path>
+                                <path d="M42.9289571,34.2 L63.7010331,34.2" id="Shape"></path>
+                                <path d="M42.9289571,39.2666667 L63.7010331,39.2666667" id="Shape"></path>
+                                <path d="M42.9289571,44.3333333 L63.7010331,44.3333333" id="Shape"></path>
+                                <path d="M42.9289571,49.4 L63.7010331,49.4" id="Shape"></path>
+                                <rect id="Rectangle-path" x="41.544152" y="54.4666667" width="20.772076" height="11.4"></rect>
+                                <path d="M37.3897368,55.7333333 L15.2328557,55.7333333" id="Shape"></path>
+                                <path d="M37.3897368,60.8 L15.2328557,60.8" id="Shape"></path>
+                                <path d="M37.3897368,65.8666667 L15.2328557,65.8666667" id="Shape"></path>
+                                <ellipse id="Oval" cx="78.9338889" cy="10.1333333" rx="4.1544152" ry="3.8"></ellipse>
+                                <ellipse id="Oval" cx="4.1544152" cy="3.8" rx="4.1544152" ry="3.8"></ellipse>
+                                <g transform="translate(8.308830, 3.800000)" id="Shape">
+                                    <path d="M0,0 L2.0772076,0"></path>
+                                    <path d="M4.84681774,0 L9.00123294,0" stroke-dasharray="2,2"></path>
+                                    <polyline points="10.386038 0 12.4632456 0 12.4632456 1.9"></polyline>
+                                    <path d="M12.4632456,4.43333333 L12.4632456,8.23333333" stroke-dasharray="2,2"></path>
+                                    <path d="M12.4632456,9.5 L12.4632456,11.4"></path>
+                                </g>
+                                <g transform="translate(36.004932, 10.133333)" id="Shape">
+                                    <path d="M0,5.06666667 L0,3.16666667"></path>
+                                    <polyline points="0 1.9 0 0 2.0772076 0"></polyline>
+                                    <path d="M5.92419608,0 L34.7738401,0" stroke-dasharray="2.7778,2.7778"></path>
+                                    <path d="M36.6973343,0 L38.7745419,0"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="87px" height="83px" viewBox="0 0 87 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Flow Chart</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Resume-Copy" transform="translate(-695.000000, -599.000000)" stroke-width="2" stroke="#333333">
+            <g id="Flow-Chart" transform="translate(696.000000, 600.000000)">
+                <g id="FLOWCHART">
+                    <g>
+                        <g id="Layer_1">
+                            <g id="Group">
+                                <path d="M46.3857637,81 L37.9519885,81 C35.6228609,81 33.7351009,79.18695 33.7351009,76.95 L33.7351009,76.95 C33.7351009,74.71305 35.6228609,72.9 37.9519885,72.9 L46.3857637,72.9 C48.7148913,72.9 50.6026514,74.71305 50.6026514,76.95 L50.6026514,76.95 C50.6026514,79.18695 48.7148913,81 46.3857637,81 L46.3857637,81 Z" id="Shape"></path>
+                                <path d="M45.6829491,28.35 L38.6548031,28.35 C37.4909421,28.35 36.5463593,27.4428 36.5463593,26.325 L36.5463593,26.325 C36.5463593,25.2072 37.4909421,24.3 38.6548031,24.3 L45.6829491,24.3 C46.8468101,24.3 47.7913929,25.2072 47.7913929,26.325 L47.7913929,26.325 C47.7913929,27.4428 46.8468101,28.35 45.6829491,28.35 L45.6829491,28.35 Z" id="Shape"></path>
+                                <path d="M49.1970222,16.2 C49.1970222,12.47265 46.0498184,9.45 42.1688761,9.45 C38.2879339,9.45 35.1407301,12.47265 35.1407301,16.2 C35.1407301,18.4005 36.2539884,20.33775 37.9519885,21.56895 L37.9519885,24.3 L46.3857637,24.3 L46.3857637,21.56895 C48.0837638,20.33775 49.1970222,18.4005 49.1970222,16.2 L49.1970222,16.2 Z" id="Shape"></path>
+                                <path d="M42.1688761,24.3 L42.1688761,17.55" id="Shape"></path>
+                                <ellipse id="Oval" cx="42.1688761" cy="16.2" rx="2.81125841" ry="2.7"></ellipse>
+                                <polygon id="Shape" points="42.1688761 35.1 33.7351009 39.15 42.1688761 43.2 50.6026514 39.15"></polygon>
+                                <rect id="Rectangle-path" x="0" y="56.7" width="16.8675505" height="8.1"></rect>
+                                <rect id="Rectangle-path" x="33.7351009" y="56.7" width="16.8675505" height="8.1"></rect>
+                                <path d="M42.1688761,28.35 L42.1688761,35.1" id="Shape"></path>
+                                <path d="M42.1688761,43.2 L42.1688761,56.7" id="Shape"></path>
+                                <path d="M42.1688761,64.8 L42.1688761,72.9" id="Shape"></path>
+                                <polyline id="Shape" points="8.43377523 56.7 8.43377523 49.95 43.5745053 49.95"></polyline>
+                                <rect id="Rectangle-path" x="67.4702018" y="35.1" width="16.8675505" height="8.1"></rect>
+                                <rect id="Rectangle-path" x="0" y="35.1" width="16.8675505" height="8.1"></rect>
+                                <path d="M8.43377523,43.2 L8.43377523,49.95" id="Shape"></path>
+                                <path d="M75.903977,43.2 L75.903977,57.1347" id="Shape"></path>
+                                <path d="M50.6026514,39.15 L67.4702018,39.15" id="Shape"></path>
+                                <path d="M28.1125841,16.2 C28.1125841,8.74395 34.405586,2.7 42.1688761,2.7 C49.9321662,2.7 56.2251682,8.74395 56.2251682,16.2" id="Shape"></path>
+                                <rect id="Rectangle-path" x="25.3013257" y="16.2" width="5.62251682" height="5.4"></rect>
+                                <rect id="Rectangle-path" x="53.4139098" y="16.2" width="5.62251682" height="5.4"></rect>
+                                <path d="M26.7069549,2.7 L57.6307974,2.7" id="Shape"></path>
+                                <ellipse id="Oval" cx="23.8956965" cy="2.7" rx="2.81125841" ry="2.7"></ellipse>
+                                <ellipse id="Oval" cx="60.4420558" cy="2.7" rx="2.81125841" ry="2.7"></ellipse>
+                                <ellipse id="Oval" cx="75.903977" cy="60.75" rx="4.21688761" ry="4.05"></ellipse>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

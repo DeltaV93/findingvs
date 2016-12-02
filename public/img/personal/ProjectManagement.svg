@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="83px" viewBox="0 0 84 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Project Management</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Resume-Copy" transform="translate(-926.000000, -855.000000)" stroke="#333333">
+            <g id="Project-Management" transform="translate(910.000000, 856.000000)">
+                <g id="WORKFLOW-PROCESS">
+                    <g transform="translate(17.492275, 0.000000)">
+                        <g id="Layer_1_1_">
+                            <g id="Group">
+                                <path d="M25.2043857,71.55 L25.2043857,66.15 L21.9922268,66.15 C21.7975929,65.52225 21.5427486,64.92015 21.2248933,64.3545 L23.493288,62.1675 L19.5333989,58.3497 L17.2650042,60.5367 C16.6783021,60.23025 16.0537935,59.98455 15.4026802,59.7969 L15.4026802,56.7 L9.80170556,56.7 L9.80170556,59.7969 C9.15059226,59.9832 8.5260836,60.23025 7.93938151,60.5367 L5.67098679,58.3497 L1.71109774,62.1675 L3.97949246,64.3545 C3.66163715,64.92015 3.40539256,65.52225 3.21215894,66.15 L0,66.15 L0,71.55 L3.21215894,71.55 C3.4067928,72.17775 3.66163715,72.77985 3.97949246,73.3455 L1.71109774,75.5325 L5.67098679,79.3503 L7.93938151,77.1633 C8.5260836,77.46975 9.15059226,77.71545 9.80170556,77.9031 L9.80170556,81 L15.4026802,81 L15.4026802,77.9031 C16.0537935,77.71545 16.6783021,77.46975 17.2650042,77.1633 L19.5333989,79.3503 L23.493288,75.5325 L21.2248933,73.3455 C21.5427486,72.77985 21.7975929,72.17775 21.9922268,71.55 L25.2043857,71.55 L25.2043857,71.55 Z" id="Shape" stroke-width="2"></path>
+                                <ellipse id="Oval" stroke-width="2" cx="12.6021929" cy="68.85" rx="4.20073096" ry="4.05"></ellipse>
+                                <path d="M81.2141318,66.15 C81.2141318,60.9309 76.8257682,56.7 71.4124262,56.7 C65.9990843,56.7 61.6107207,60.9309 61.6107207,66.15 C61.6107207,69.3603 63.2742101,72.19125 65.8114516,73.899 L65.8114516,81 L77.0134008,81 L77.0134008,73.899 C79.5506423,72.19125 81.2141318,69.3603 81.2141318,66.15 L81.2141318,66.15 Z" id="Shape" stroke-width="2"></path>
+                                <path d="M63.0109643,76.95 L79.8138882,76.95" id="Shape" stroke-width="2"></path>
+                                <path d="M71.4124262,76.95 L71.4124262,68.85" id="Shape" stroke-width="2"></path>
+                                <ellipse id="Oval" stroke-width="2" cx="71.4124262" cy="66.15" rx="2.8004873" ry="2.7"></ellipse>
+                                <path d="M23.8041421,39.15 L60.210477,39.15" id="Shape" stroke-width="2"></path>
+                                <ellipse id="Oval" stroke-width="2" cx="42.0073096" cy="4.725" rx="9.80170556" ry="4.725"></ellipse>
+                                <rect id="Rectangle-path" stroke-width="2" x="4.20073096" y="33.75" width="19.6034111" height="10.8"></rect>
+                                <rect id="Rectangle-path" stroke-width="1.99998082" transform="translate(42.005899, 22.950135) rotate(-45.000000) translate(-42.005899, -22.950135) " x="37.0553854" y="18.1772558" width="9.90102791" height="9.54575845"></rect>
+                                <path d="M42.0073096,9.45 L42.0073096,16.2" id="Shape" stroke-width="2"></path>
+                                <polyline id="Shape" stroke-width="2" points="35.0060913 22.95 14.0024365 22.95 14.0024365 33.75"></polyline>
+                                <rect id="Rectangle-path" stroke-width="2" transform="translate(70.012183, 39.150000) rotate(180.000000) translate(-70.012183, -39.150000) " x="60.210477" y="33.75" width="19.6034111" height="10.8"></rect>
+                                <polyline id="Shape" stroke-width="2" points="49.0085278 22.95 70.0121826 22.95 70.0121826 33.75"></polyline>
+                                <path d="M42.0073096,39.15 L42.0073096,51.3" id="Shape" stroke-width="2"></path>
+                                <polyline id="Shape" stroke-width="2" points="12.6021929 56.7 12.6021929 51.3 71.4124262 51.3 71.4124262 56.7"></polyline>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
