@@ -17,13 +17,11 @@
     @endcan
   </div>
   <div class="row">
-    <h3 class="text-white text-center">Frontend Devloper / UX Designer</h3>
+    <h3 class="text-white text-center">Frontend Devloper / UX Designer</h3>    
   </div>  
-</div>
-<div class="row">
   <div class="small-6 small-centered text-center columns">
       <a aria-label="Enter website" type="button" data-btn="enter" href="{{ url('/about') }}" href="#" class="hollow button">Enter</a>
-  </div>
+  </div>  
 </div>
 @endsection
 
@@ -31,7 +29,6 @@
 <script >
 
 $( document ).ready(function() {
-
   var enterWebsite = function() {
     window.location.replace("/about");
   };

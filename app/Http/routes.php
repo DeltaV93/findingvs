@@ -34,6 +34,10 @@ Route::get('/test', function() {
 	return view('test');
 });
 
+Route::get('/bmw', function() {
+	return view('bmw');
+});
+
 
 Route::auth();
 
