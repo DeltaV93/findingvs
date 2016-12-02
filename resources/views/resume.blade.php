@@ -56,22 +56,25 @@
 		<div class="column large-6">
 		 <div class="resume__personal">
 			<h4 class="h3 heading">PERSONAL SKILLS</h4>
-			@for($i = 0; $i < 12; $i++)
+			@foreach($personals as $personalSkill)
 				<div class="large-2 column">
-					<div class="panel"></div>
+					{{-- <div class="panel"></div> --}}
+					{{-- <img src={{ $personalSkill->img }}> --}}
+					{{ HTML::image('img/personal/'.$personalSkill->img ) }}
+					<p >{{ $personalSkill->skill }}</p>
 				</div>
-			@endfor
+			@endforeach
 		 </div>
 		 <div class="resume__profesional">
 			<h4 class="h3 heading ">PROFESIONAL SKILLS</h4>
-			@for($i = 0; $i < 12; $i++)
-				<lable class="column large-4">HTML  CSS</lable>
+			@foreach($profesionals as $profesional)
+				<lable class="column large-4">{{$profesional->skill}}</lable>
 				<div class="large-8 right">
 					<div class="secondary progress" role="progressbar" tabindex="0" aria-valuenow="25" aria-valuemin="0" aria-valuetext="25 percent" aria-valuemax="100">
-						<div class="progress-meter" style="width: 95%"></div>
+						<div class="progress-meter" style="width: {{$profesional->percent}}%"></div>
 					</div>
 				</div>
-			@endfor
+			@endforeach
 		 </div>
 		</div>
 	</div>

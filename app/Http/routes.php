@@ -14,29 +14,28 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
 Route::get('frontend', 'ProjectController@frontend');
+
 Route::get('about', function(){
 	return view('about');
 });
+
 Route::get('project', function(){
 	return view('projects');
 });
-Route::get('resume', function(){
-	return view('resume');
-});
+
+Route::resource('/resume', 'ResumeController@index');
+
 Route::resource('/admin', 'AdminController'); 
+
 Route::resource('projects', 'ProjectController');
+
 Route::post('projects/store', 'ProjectController@store');
+
 // Route::get('/test', function() {
 // 	return view('pages.projects.partials.form');
 // });
-Route::get('/test', function() {
-	return view('test');
-});
-
-Route::get('/bmw', function() {
-	return view('bmw');
-});
 
 
 Route::auth();

@@ -28,12 +28,12 @@
 @section('scripts')
 <script >
 
-$( document ).ready(function() {
-  var enterWebsite = function() {
-    window.location.replace("/about");
-  };
+// $( document ).ready(function() {
+//   var enterWebsite = function() {
+//     window.location.replace("/about");
+//   };
 
   // setInterval(enterWebsite, 9000);
-});
+// });
 </script>
 @endsection
