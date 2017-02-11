@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.css">
     {!! HTML::style('css/app.css') !!}
     {!! HTML::style('css/valerie.css') !!}
+    @yield('css')
     <body id="gradient">
     {{-- <body style="background-color: lightblue;"> --}}
 {{-- DO NOT SHOW NAVBAR ON WELCOME --}}

@@ -11,19 +11,19 @@
       <div class=" column small-4 large-4 psych">
         <div class="about-btn__psych">
           <img data-btn="psych" src="{{asset('/img/LOVE_FEELINGS.svg')}}" alt="" />
-          <h3 data-change-title="default">Psychology</h3>
+          <h3 data-change-title="default"><strong>Psychology</strong></h3>
         </div>
       </div>
       <div class="column small-4 large-4 code">
         <div class="about-btn__code">
           <img data-btn="code" src="{{asset('/img/WEB_DESIGN0.svg')}}" alt="">
-          <h3 data-change-title="code">Code</h3>
+          <h3 data-change-title="code"><strong>Code</strong></h3>
         </div>
       </div>
       <div class="column small-4 large-4 art">
         <div class="about-btn__art">
           <img data-btn="art" src="{{asset('/img/INSPIRATION.svg')}}" alt="" />
-          <h3>Art</h3>  
+          <h3><strong>Art</strong></h3>  
         </div>
       </div>
     </div>
@@ -39,50 +39,55 @@
     <p id="content" data-change-content="art" class="large-8 large-centered small-text-justify hide"> Art has been a part of my life for as long as I could remember.
       As an art minor, I focused on painting. During my time at CSUN I had the pleasure of working with an amzing group to artist to paint <a href="http://arttreeoflife.com/" target="_blank"><em>Art De La Vida: Tree of Life Honorning Diversity, Icons, And Inspiration</em></a> mural, located in CSUN Art department.
     </p>
-    <p id="content" data-change-content="default" class="large-8 large-centered small-text-justify ">Studying  psycholgoy showed thought me how and why people thing the way the do. 
+    <p id="content" data-change-content="default" class="large-8 large-centered small-text-justify ">Studying  psycholgoy showed thought me how and why people thing the way the do. ˜
     </p> --}}
-    <p class="large-9 large-centered small-text-justify ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-  <div class="container container--off-white containter--recent-projects">
-    <h1 class="h2 text-center">Recent Projects</h1>
-    <div class="project-boxs row">
-      <div class="project-box column large-4 panel">
-          <img class="test-img" src="">
-        <div class="project-box--info__bottom">
-          <div class="container panel">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore.
-              <a href="#">Read More</a>
-            </p>
+    <h2 class="large-9 h3 large-centered small-text-justify ">
+      With an education in psychology, a love for art, and zealous curiosity for technology, I've become a hybrid UX/UI Desginer &amp; Frontend Devloper. 
+      <br>
+      I'm almost a unicorn! Well, ... I guess that makes me a horse.
+    </h2>
+    <br>
+{{--     <h2 class="large-9 h3 large-centered small-text-justify ">
+      Being a self thaught devloper, I've trived on  workshops proved by non profites such as <a target="_blank" href="https://www.girldevelopit.com/chapters/los-angeles"><span>Girl Devlop It Los Angles</span></a> to continuously expand my skill set. 
+    </h2> --}}
+  {{-- </div> --}}
+    <div class="container container--off-white containter--recent-projects">
+      <h1 class="h2 text-center">Recent Projects</h1>
+      <div class="project-boxs row">
+
+        <div class="project-box th column large-4 panel"> 
+          <a href="href="{{ url('/project/moodbook') }}""><img class="test-img " alt="MoodBook Logo" src="{{asset('/img/moodbook_logo.svg')}}"></a>
+          <div class="project-box--info__bottom">
+            <div class="container panel">
+                <h2>MoodBook</h2>
+                <h3 class="h4">Its like a mood ring for your words. I desgined &amp; coded a digital journal that anyanlys your words and generates colors in real time.</h3>
+                <h4><a href="{{ url('/project/moodbook') }}">Read More</a></h4>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="project-box column large-4 panel">
-          <img class="test-img" src="">
-        <div class="project-box--info__bottom">
-          <div class="container panel">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore.
-              <a href="#">Read More</a>
-            </p>
+
+        <div class="project-box th column large-4 panel"> 
+          <a href="href="{{ url('/project/estify') }}""><img class="test-img " alt="Estify Logo" src="{{asset('/img/estify_logo.svg')}}"></a>
+          <div class="project-box--info__bottom">
+            <div class="container panel">
+                <h2>Estify</h2>
+                <h3 class="h4">Who knew autobody software could be sexy? In full start up mood, I between my UX/UI and Frontend to get things done.</h3>
+                <h4><a blank="" href="{{ url('/project/estify') }}">Read More</a></h4>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="project-box column large-4 panel">
-          <img class="test-img" src="">
-        <div class="project-box--info__bottom">
-          <div class="container panel">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore.
-              <a href="#">Read More</a>
-            </p>
+
+        <div class="project-box th column large-4 panel"> 
+          <a href="href="{{ url('/project/metalab') }}""><img class="test-img " alt="Meta+ Lab Logo" src="{{asset('/img/metalab_logo.svg')}}"></a>
+          <div class="project-box--info__bottom">
+            <div class="container panel">
+                <h2>Meta+ Lab</h2>
+                <h3 class="h4">Explor. Learn. Go Beyond. We built application with real clients on real projects.</h3>
+                <h4><a blank="" href="{{ url('/project/metalab') }}">Read More</a></h4>
+            </div>
           </div>
         </div>
+
       </div>
     </div>
   </div>

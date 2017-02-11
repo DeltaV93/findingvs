@@ -32,6 +32,16 @@ class ProjectController extends Controller
     }
 
     /**
+     * Display the Moodbook work.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */    
+    public function moodbook()
+    {     
+        return view('moodbook');
+    }
+    /**
      * Display the frontend work.
      *
      * @param  int  $id

@@ -6678,7 +6678,8 @@ a {
 
 .text--intro {
   letter-spacing: 1.1px;
-  font-weight: 400; }
+  font-weight: 400;
+  font-size: 17px; }
 
 .text--white, .resume__name,
 .resume__title {
@@ -6817,7 +6818,7 @@ a, a:visited {
   padding: 0; }
 
 .test-img {
-  background-color: #2FAFB0;
+  background-color: #fff;
   height: 200px;
   width: 100%; }
 
@@ -6894,3 +6895,29 @@ body > div.wrapper > div.row > div.column.large-2 > div > div {
 .progress {
   background-color: #cecece;
   border-radius: 15px; }
+
+.personal--box > div > p {
+  text-align: center;
+  font-size: 0.88rem;
+  line-height: 1.3; }
+
+.profesional--skill {
+  margin-bottom: 5vw; }
+
+.personal--box > div > p {
+  text-transform: capitalize; }
+
+.job--details {
+  font-size: 20px;
+  line-height: 1.3; }
+
+.job--title {
+  font-size: 17px; }
+
+.project-boxs h2,
+.project-boxs h3 {
+  color: white; }
+
+.container.container--white.project {
+  top: 5px;
+  position: relative; }

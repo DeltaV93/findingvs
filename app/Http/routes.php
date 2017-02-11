@@ -22,7 +22,15 @@ Route::get('about', function(){
 });
 
 Route::get('project', function(){
-	return view('projects');
+    return view('projects');
+});
+
+Route::get('project/moodbook', function(){
+    return view('moodbook');
+});
+
+Route::get('project/estify', function(){
+	return view('estify');
 });
 
 Route::resource('/resume', 'ResumeController@index');
@@ -30,6 +38,8 @@ Route::resource('/resume', 'ResumeController@index');
 Route::resource('/admin', 'AdminController'); 
 
 Route::resource('projects', 'ProjectController');
+
+// Route::resource('projects/moodbook', 'ProjectController@moodbook');
 
 Route::post('projects/store', 'ProjectController@store');
 
