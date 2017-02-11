@@ -2,6 +2,7 @@ $font-size-base: 12px;
 $modular-scale-ratio: 1.2;
 $font-size-root: $font-size-base;
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @font-face {
   font-family: 'ragnierragnier';
   src: url("../fonts/ragnier-webfont.eot");
@@ -9,13 +10,14 @@ $font-size-root: $font-size-base;
   font-weight: normal;
   font-style: normal; 
 }
-$font-body:		'Oswald';
+$font-body:	'Open Sans';
 
 body {
-	font-family: 'Oswald';
+	font-family: 'Open Sans';
 	font-size: modular-scale(0);
 	font-weight: 400;
 	color: $text-color;
+    // color: red;
 }
 
 h1, h2, h3, h4, h5, h6 {

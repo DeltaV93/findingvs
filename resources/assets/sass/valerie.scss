@@ -115,14 +115,15 @@ $alpha:			0.5;
 // }
 .welcome--container {
 	background-image: url('../img/logo_main_page.png');
-	height: rem-calc(575);
+	height: rem-calc(555);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
 	
 }
 .welcome--container h1 {
-	margin-top: rem-calc(180);
+	margin-top: rem-calc(148);
+    height: 158px;
 }
 // about page 
 .project-box {

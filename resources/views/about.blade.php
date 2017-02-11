@@ -4,7 +4,24 @@
 @section('content')
 
 <div class="container about">
-  <div class="img-panel img-panel__general"></div>
+  <div class="align-center main small-12 large-12 welcome--container">
+    <div class="row">
+      <h1 class="text-center font--title text-white">Valerie Sharp</h1>
+      <h2 class="text-white text-center">UX Designer / Frontend Devloper </h2>    
+      @can('edit_work')
+        <h1><a href="#">Need to make some update?</a></h1>
+      @endcan
+
+      @can('manage_user')
+        <h1><a href="#">Edit these users</a></h1>
+      @endcan
+    </div>
+    {{-- <div class="row"> --}}
+      {{-- <h3 class="text-white text-center">UX Designer / Frontend Devloper </h3>     --}}
+    {{-- </div>   --}}
+    </div>  
+  </div>
+  {{-- <div class="img-panel img-panel__general"></div> --}}
   <div class="container container--white containter--about">
     <h1 class="h2 text-center">About Me</h1>
     <div class="row text-center">
@@ -31,7 +48,7 @@
     <h2 class="large-9 h3 large-centered small-text-justify ">
       With an education in psychology, a love for art, and zealous curiosity for technology, I've become a hybrid UX/UI Desginer &amp; Frontend Devloper. 
       <br>
-      I'm almost a unicorn! Well, ... I guess that makes me a horse.
+      I'm almost a unicorn! <br> Well, ... I guess that makes me a horse.
     </h2>
     <br>
 
@@ -40,7 +57,7 @@
       <div class="project-boxs row">
 
         <div class="project-box th column large-4 panel"> 
-          <a href="href="{{ url('/project/moodbook') }}""><img class="test-img " alt="MoodBook Logo" src="{{asset('/img/moodbook_logo.svg')}}"></a>
+          <a href="{{ url('/project/moodbook') }}""><img class="test-img " alt="MoodBook Logo" src="{{asset('/img/moodbook_logo.svg')}}"></a>
           <div class="project-box--info__bottom">
             <div class="container panel">
                 <h2>MoodBook</h2>
@@ -51,7 +68,7 @@
         </div>
 
         <div class="project-box th column large-4 panel"> 
-          <a href="href="{{ url('/project/estify') }}""><img class="test-img " alt="Estify Logo" src="{{asset('/img/estify_logo.svg')}}"></a>
+          <a href="{{ url('/project/estify') }}""><img class="test-img " alt="Estify Logo" src="{{asset('/img/estify_logo.svg')}}"></a>
           <div class="project-box--info__bottom">
             <div class="container panel">
                 <h2>Estify</h2>
@@ -62,7 +79,7 @@
         </div>
 
         <div class="project-box th column large-4 panel"> 
-          <a href="href="{{ url('/project/metalab') }}""><img class="test-img " alt="Meta+ Lab Logo" src="{{asset('/img/metalab_logo.svg')}}"></a>
+          <a href="{{ url('/project/metalab') }}""><img class="test-img " alt="Meta+ Lab Logo" src="{{asset('/img/metalab_logo.svg')}}"></a>
           <div class="project-box--info__bottom">
             <div class="container panel">
                 <h2>Meta+ Lab</h2>
