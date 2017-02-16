@@ -1,23 +1,23 @@
 @extends('layouts.master')
 @section('css')
-<link rel="stylesheet" href="../../stylesheets/coloringpageprint.css" type="text/css" media="print" />
+{{-- <link rel="stylesheet" href="../../stylesheets/coloringpageprint.css" type="text/css" media="print" /> --}}
 @endsection
 @section('title', 'About')
 @section('description')
 @section('content')
 <div class="row">
-	<div class="resume--img column large-2">
+	<div class="resume--img column small-2 medium-3 large-2">
 		<div class="panel panel--circle">
 			<div class="panel panel--circle">
 				<img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAfMAAAAJDNkMDYzYmU1LTQ1ZDYtNGY0OS1iOTAwLWI5NTc0ODE4M2JjYw.jpg" alt="Profile Image Of Valerie Sharp">
 			</div>
 		</div>
 	</div>
-	<div class="row">
-		<div class="column left large-5 resume__name">
+	<div class="small-12 medium-8 column">
+		<div class=" left resume__name">
 			<h1 class="resume__name font--title ">Valerie Sharp</h1>
 		</div>
-		<div class="column left large-8">
+		<div class="left large-8">
 			<h2 class="h3 resume__title">UX/UI Designer & Frontend Developer</h2>	
 		</div>
 	</div>
@@ -33,12 +33,12 @@
 	<div class="row">
 		<h3 class="h1 text-center">Resume</h3>
 	</div>
-	<div class="row">
+	<div class="row resume--header">
 		<h4 class="h3 resume__heading--top">PROFESIONAL PROFILE</h4>
 		<p class="text--intro">Frontend Developer committed to developing polished user interfaces that raise the bar for usability and design. Skilled in UX/UI development, with a strong command of HTML, CSS/Sass, Bootstrap, JavaScript, and libraries.</p>
 	</div>
-	<div class="row" data-equalizer>
-		<div class="column large-6" data-equalizer-watch>
+	<div class="row" >
+		<div class="column large-6">
 			<h4 class="h3 heading">WORD EXPERIENCE</h4>
 			<div class="job" >
 				<h5><strong>Estify / <span class="job__date">Feb 2014 - Present</span></strong></h5>
@@ -56,14 +56,12 @@
 				<p class="job--details">Collaborated with a group of artists on the design process, along with executing it from start to finish. Worked on creating the layout and needed paperwork to present to the committee for approval. Planned and launched a website to promote all of the artists involved in the process.</p>
 			</div>
 		</div>
-		<div class="column large-6" data-equalizer-watch>
+		<div class="column large-6" >
 		 <div class="resume__personal">
 			<h4 class="h3 heading">PERSONAL SKILLS</h4>
 			<div class="row personal--box">
 				@foreach($personals as $personalSkill)
-					<div class="small-4 medium-4 large-2 column personal--skill">
-						{{-- <div class="panel"></div> --}}
-						{{-- <img src={{ $personalSkill->img }}> --}}
+					<div class="small-6 medium-2 large-2 column personal--skill">
 						{{ HTML::image('img/personal/'.$personalSkill->img ) }}
 						<p >{{ strtolower($personalSkill->skill)  }}</p>
 					</div>
@@ -75,7 +73,7 @@
 			<div class="profesional--box">
 				@foreach($profesionals as $profesional)
 					<div class="row profesional--skill">
-						<lable class="column small-2 medium-4 large-4">{{ $profesional->skill }}</lable>
+						<lable class="column small-4 medium-2 large-4">{{ $profesional->skill }}</lable>
 						<div class="small-8 medium-8 large-8 right">
 							<div class="secondary progress" role="progressbar" tabindex="0" aria-valuenow="25" aria-valuemin="0" aria-valuetext="25 percent" aria-valuemax="100">
 								<div class="progress-meter" style="width: {{$profesional->percent}}%"></div>

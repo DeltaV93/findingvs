@@ -1,81 +1,90 @@
 @extends('layouts.master')
-@section('title', 'About')
+@section('title', 'Estify')
 @section('description')
 @section('content')
 <div class="container container--white project">
-    <div class="row column">   
-        <h1>Estify<small> Bring Body Shops Into the Digital Age.</small></h1>
-    </div>
+    <div class="row column"></div>
     <div class="row">
         <div class=" column small-3 medium-3 large-3">
             <div class="th">
                 <a target="_blank" href="http://moodbook.in/">
-                    <img src="{{ asset('img/moodbook.png') }}">
+                    <img src="{{ asset('img/estify_logo.svg') }}">
                 </a>
             </div>
         </div>
         <div class=" column small-9 medium-9 large-9">
             <div class="project-info">
-                <h2 class="h4">
+                <h1>Estify<small> Bring Body Shops Into the Digital Age.</small></h1>
+                <h2 class="h5">
                     <strong>Overview</strong>
                     <br>
-                    
+                    I created a digital joural website that counts the postive and negative words turns those words into colors. If your entry is very postive and uses "happy" words, it will out put bright colors. But if your entry shows your feeling kinda blue, darker colors well be displayed.
                 </h2>
             </div>
         </div>
     </div>
     <div class="row">
-        <div class="column small-6">
-            <h2>Tools Used</h2>
-            <dl>
-                <li>Sketch</li>
-                <li>MindNode</li>
-                <li>Asana</li>
-                <li>Invisionapp</li>
-                <li>Sublime</li>
-            </dl>
-        </div>
-        <div class="column small-6">
-            <h2>Technology Used</h2>
-                <ul>
-                    <div class="column small-6">
-                        <li><strong>Frontend</strong>
-                            <ul>
-                                <li>Html</li>
-                                <li>Sass</li>
-                                <li>Javascript</li>
-                                <li>Boostrap</li>
-                            </ul>
-                        </li>
-                    </div>
-                    <div class="column small-6">
-                        <li><strong>Backend</strong>
-                            <ul>
-                                <li>Laravel</li>
-                                <li>PHP</li>
-                                <li>SQL</li>
-                            </ul> 
-                        </li>
-                    </div>
-                </ul>
+        <h2 class="h3"><strong>Tools &amp; Technology Used</strong></h2>
+        <div class="row">
+            <div class="column small-6">
+                <dl class="no-bullet">
+                    <li><strong>UX &amp; Planing</strong></li>
+                    <dl class="no-bullet inline-list">
+                        <li class="small-1"><img src="{{ asset('img/tools/sketch.svg') }}" alt="Sketch Icon">Sketch</li>
+                        <li class="small-1"><img src="{{ asset('img/tools/sass.svg') }}" alt="Sass Icon">MindNode</li>
+                        <li class="small-1"><img src="{{ asset('img/tools/asana.svg') }}" alt="Asana Icon">Asana</li>
+                        <li class="small-1"><img src="{{ asset('img/tools/invision.svg') }}" alt="Invisionapp Icon">Invision</li>
+                    </dl>
+                </dl>
+            </div>
+            <div class="column small-6">
+                <dl class="no-bullet">
+                    <li><strong>Frontend</strong>
+                        <dl class="no-bullet inline-list">
+                            <li class="small-1"><img src="{{ asset('img/tools/html.svg') }}" alt="HTML Icon">Html</li>
+                            <li class="small-1"><img src="{{ asset('img/tools/sass.svg') }}" alt="Sass Icon">Sass</li>
+                            <li class="small-1"><img src="{{ asset('img/tools/gulp.svg') }}" alt="Sass Icon">Gulp</li>
+                            <li class="small-1"><img src="{{ asset('img/tools/js.svg') }}" alt="Javascript Icon">Javascript</li>
+                            <li class="small-1"><img src="{{ asset('img/tools/Boostrap.svg') }}" alt="Boostrap Icon">Boostrap</li>
+                        </dl>
+                    </li>
+                </dl>
+            </div>
+            {{-- <div class="column small-4"> --}}
+{{--                 <dl class="no-bullet">
+                    <li><strong>Backend</strong>
+                        <dl class="no-bullet inline-list">
+                            <li class="small-2"><img src="{{ asset('img/tools/php.svg') }}" alt="PHP Icon">PHP</li>
+                        </dl> 
+                    </li>
+                </dl> --}}
+            {{-- </div> --}}
         </div>
     </div>
     <div class="row">
-        <h1>The Process</h1>
+        <h2 class="h3"><strong>The Process</strong></h2>
         <div class="row">
             <div class="column">
-                <h2>Understanding the Goals</h2>
+                <h3 class="h4">Understanding the Goals</h3>
                 <h4>This project needs to be accessable from any device, and usable for people with varying skill sets. Keeping this in mind I was able to move from idea to production in no time!</h4>
             </div>
             <div class="row">
                 <div class="column">
                     <div class="small-3 th">
                         <img src="" alt="">
+                        <p>Created user personas to understand the users needs, wants, and fustrations. I mapped this information with the the personal goals I had for the website, and used this as a guide to figure what could be acomplished in the given time period.</p>
+                    </div>
+                    <div class="small-3 th">
+                        <img src="" alt="">
                         <p>I start off making a site map to understand what is needed to reach the end goal for a user.</p>
                     </div>
                     <div class="small-3 th">
                         <img src="" alt="">
-                        <p>Creating low fedility wire frames help to understand all the moving parts of each screen.</p>
+                        <p>I created a set of moodbords and style tiles to get a better understand of the look and feel of the website.</p>
+                    </div>                    
+                    <div class="small-3 th">
+                        <img src="" alt="">
+                        <p>With the UI kit I built, I creating low fedility wire frames help to understand all the moving parts of each screen.</p>
                     </div>
                     <div class="small-3 th">
                         <img src="" alt="">
@@ -86,5 +95,4 @@
         </div>
     </div>
 </div>
-
 @endsection
