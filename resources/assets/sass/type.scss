@@ -13,10 +13,10 @@ $font-size-root: $font-size-base;
   src: url("../fonts/ragnier-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ragnier-webfont.woff2") format("woff2"), url("../fonts/ragnier-webfont.woff") format("woff"), url("../fonts/ragnier-webfont.ttf") format("truetype"), url("../fonts/ragnier-webfont.svg#ragnierragnier") format("svg");
   font-weight: normal;
   font-style: normal; }
-// FONT 
+// FONT
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700');
 $title-font:    'ragnierragnier';
-$body-font:     'Oswald';   
+$body-font:     'Oswald';
 
 body {
   font-family: "Oswald";
@@ -74,24 +74,31 @@ a {
 
 .font--title {
   font-family: $title-font;
-  font-size: 9rem; 
+  font-size: 9rem;
   font-weight: 100;
 }
 .text--intro {
   letter-spacing: 1.1px;
-  font-weight: 400; 
-  font-size: 17px; 
+  font-weight: 400;
+  font-size: 17px;
 }
 
 .text--white {
   color: $white;
 }
+.text--body {
+  // font-family: Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Roboto Condensed';
+  // line-height: 32px;
+  margin-top: 0;
+  margin-bottom: 8px;
+  letter-spacing: .1px;
+}
+
 /*
 Links
  */
 a, a:visited {
   font-family: $body-font;
-  text-decoration: none; 
+  text-decoration: none;
 }
-
-

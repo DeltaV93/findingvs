@@ -2,13 +2,13 @@ $font-size-base: 12px;
 $modular-scale-ratio: 1.2;
 $font-size-root: $font-size-base;
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=roboto');
 @font-face {
   font-family: 'ragnierragnier';
   src: url("../fonts/ragnier-webfont.eot");
   src: url("../fonts/ragnier-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ragnier-webfont.woff2") format("woff2"), url("../fonts/ragnier-webfont.woff") format("woff"), url("../fonts/ragnier-webfont.ttf") format("truetype"), url("../fonts/ragnier-webfont.svg#ragnierragnier") format("svg");
   font-weight: normal;
-  font-style: normal; 
+  font-style: normal;
 }
 $font-body:	'Open Sans';
 
@@ -17,7 +17,6 @@ body {
 	font-size: modular-scale(0);
 	font-weight: 400;
 	color: $text-color;
-    // color: red;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -65,7 +64,7 @@ a {
 		text-decoration: underline;
 	}
 }
-// TYPE HELPERS 
+// TYPE HELPERS
 
 .font--title {
 	font-family: 'ragnierragnier';
@@ -78,10 +77,11 @@ a {
 .text--white {
 	color: $white;
 }
+
 // MOBILE VIEWS MD
 // @media (max-width: $screen-md) {
 // 	html {
-// 		font-size: 12px; 
+// 		font-size: 12px;
 // 	}
 
 // }
@@ -89,7 +89,7 @@ a {
 // @media (max-width: $screen-xs) {
 
 // 	html {
-// 		font-size: 10px ; 
+// 		font-size: 10px ;
 // 	}
 
 // }

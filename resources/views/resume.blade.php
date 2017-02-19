@@ -18,7 +18,7 @@
 			<h1 class="resume__name font--title ">Valerie Sharp</h1>
 		</div>
 		<div class="left large-8">
-			<h2 class="h3 resume__title">UX/UI Designer & Frontend Developer</h2>	
+			<h2 class="h3 resume__title">UX/UI Designer & Frontend Developer</h2>
 		</div>
 	</div>
 	<div class="header__btns  right">
@@ -26,7 +26,7 @@
 		  <a class="button" href="#" data-open="contactModal">Contact</a>
 		  <a class="button">PDF</a>
 		  {{-- <a class="button">Print</a> --}}
-		</div>		
+		</div>
 	</div>
 </div>
 <div class="container container--white">
@@ -43,17 +43,17 @@
 			<div class="job" >
 				<h5><strong>Estify / <span class="job__date">Feb 2014 - Present</span></strong></h5>
 				<h6 class="job--title"><strong>UX/UI Designer Frontend Developer</strong></h6>
-				<p class="job--details">Create wireframes and prototypes for new website layout, along with converting the website to be responsive. Run user testing to confirm the new design was accessible to all of our users. With HTML, CSS, JavaScript and PHP, I built and reusable UI kits that allowed used to apply their own branding.</p>
+				<p class="job--details text--body">Create wireframes and prototypes for new website layout, along with converting the website to be responsive. Run user testing to confirm the new design was accessible to all of our users. With HTML, CSS, JavaScript and PHP, I built and reusable UI kits that allowed used to apply their own branding.</p>
 			</div>
 			<div class="job" >
 				<h5><strong>Meta+ Lab /<span class="job__date">Oct 2015 - May 2016</span></strong></h5>
 				<h6 class="job--title"><strong>Frontend Developer</strong></h6>
-				<p class="job--details">Conduct user research and testing to produce user- centered and accessible designs. As a Front-End Developer, I take clients visions and translate them into clean web interfaces while applying to 508 compliance best practices. Using agile development process, I am able to meet all project deadlines.</p>
+				<p class="job--details text--body">Conduct user research and testing to produce user- centered and accessible designs. As a Front-End Developer, I take clients visions and translate them into clean web interfaces while applying to 508 compliance best practices. Using agile development process, I am able to meet all project deadlines.</p>
 			</div>
 			<div class="job" >
 				<h5><strong>Tree Of Life Mural / <span class="job__date">Oct 2015 - May 2015</span></strong></h5>
 				<h6 class="job--title"><strong>Frontend Developer / Artist</strong></h6>
-				<p class="job--details">Collaborated with a group of artists on the design process, along with executing it from start to finish. Worked on creating the layout and needed paperwork to present to the committee for approval. Planned and launched a website to promote all of the artists involved in the process.</p>
+				<p class="job--details text--body">Collaborated with a group of artists on the design process, along with executing it from start to finish. Worked on creating the layout and needed paperwork to present to the committee for approval. Planned and launched a website to promote all of the artists involved in the process.</p>
 			</div>
 		</div>
 		<div class="column large-6" >

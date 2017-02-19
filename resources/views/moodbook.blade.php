@@ -4,47 +4,46 @@
 @section('content')
 <div class="container container--white project">
     <div class="row column"></div>
-    <div class="row">
-        <div class=" column small-3 medium-3 large-3">
+    <div class="row project-header">
+        <div class=" column small-12 medium-3 large-3">
             <div class="th">
                 <a target="_blank" href="http://moodbook.in/">
-                    <img src="{{ asset('img/estify_logo.png') }}">
+                    <img src="{{ asset('img/moodbook_logo.svg') }}">
                 </a>
             </div>
         </div>
-        <div class=" column small-9 medium-9 large-9">
+        <div class=" column small-12 medium-9 large-9">
             <div class="project-info">
                 <h1>MoodBook<small> It's a mood ring for your words.</small></h1>
-                <h2 class="h5">
-                    <strong>Overview</strong>
-                    <br>
-                    I created a digital joural website that counts the postive and negative words turns those words into colors. If your entry is very postive and uses "happy" words, it will out put bright colors. But if your entry shows your feeling kinda blue, darker colors well be displayed.
+                <h2 class="h4">
+                    <strong>Role</strong>
+                    Full Stack Devloper
                 </h2>
             </div>
         </div>
     </div>
     <div class="row">
-        <h2 class="h3"><strong>Tools &amp; Technology Used</strong></h2>
+        <h2 class="h4"><strong>Tools &amp; Technology Used</strong></h2>
         <div class="row">
             <div class="column small-4">
                 <dl class="no-bullet">
                     <li>UX &amp; Planing</li>
-                    <dl class="no-bullet inline-list text-center">
-                        <li class="small-2"><img src="{{ asset('img/tools/sketch.svg') }}" alt="Sketch Icon">Sketch</li>
-                        <li class="small-2"><img src="{{ asset('img/tools/sass.svg') }}" alt="Sass Icon">MindNode</li>
-                        <li class="small-2"><img src="{{ asset('img/tools/asana.svg') }}" alt="Asana Icon">Asana</li>
-                        <li class="small-2"><img src="{{ asset('img/tools/invision.svg') }}" alt="Invisionapp Icon">Invision</li>
+                    <dl class="no-bullet inline-list">
+                        <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/sketch.svg') }}" alt="Sketch Icon">Sketch</li>
+                        <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/sass.svg') }}" alt="Sass Icon">MindNode</li>
+                        <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/asana.svg') }}" alt="Asana Icon">Asana</li>
+                        <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/invision.svg') }}" alt="Invisionapp Icon">Invision</li>
                     </dl>
                 </dl>
             </div>
             <div class="column small-4">
                 <dl class="no-bullet">
                     <li>Frontend
-                        <dl class="no-bullet inline-list text-center">
-                            <li class="small-2"><img src="{{ asset('img/tools/html.svg') }}" alt="HTML Icon">Html</li>
-                            <li class="small-2"><img src="{{ asset('img/tools/sass.svg') }}" alt="Sass Icon">Sass</li>
-                            <li class="small-2"><img src="{{ asset('img/tools/js.svg') }}" alt="Javascript Icon">Javascript</li>
-                            <li class="small-2"><img src="{{ asset('img/tools/Boostrap.svg') }}" alt="Boostrap Icon">Boostrap</li>
+                        <dl class="no-bullet inline-list">
+                            <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/html.svg') }}" alt="HTML Icon">Html</li>
+                            <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/sass.svg') }}" alt="Sass Icon">Sass</li>
+                            <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/js.svg') }}" alt="Javascript Icon">Javascript</li>
+                            <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/Boostrap.svg') }}" alt="Boostrap Icon">Boostrap</li>
                         </dl>
                     </li>
                 </dl>
@@ -52,11 +51,11 @@
             <div class="column small-4">
                 <dl class="no-bullet">
                     <li>Backend
-                        <dl class="no-bullet inline-list text-center">
-                            <li class="small-2"><img src="{{ asset('img/tools/learvel.svg') }}" alt="Laravel Icon">Laravel</li>
-                            <li class="small-2"><img src="{{ asset('img/tools/php.svg') }}" alt="PHP Icon">PHP</li>
-                            <li class="small-2"><img src="{{ asset('img/tools/sql.svg') }}" alt="SQL Icon">SQL</li>
-                            <li class="small-2"><img src="{{ asset('img/tools/python.svg') }}" alt="Python Icon">Python</li>
+                        <dl class="no-bullet inline-list">
+                            <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/learvel.svg') }}" alt="Laravel Icon">Laravel</li>
+                            <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/php.svg') }}" alt="PHP Icon">PHP</li>
+                            <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/sql.svg') }}" alt="SQL Icon">SQL</li>
+                            <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/python.svg') }}" alt="Python Icon">Python</li>
                         </dl> 
                     </li>
                 </dl>
@@ -64,12 +63,16 @@
         </div>
     </div>
     <div class="row">
-        <h2 class="h5"><strong>The Process</strong></h2>
+        <h2 class="h4"><strong>My Resposibilities</strong></h2>
         <div class="row">
             <div class="column">
-                <h3 class="h3">Understanding the Goals</h3>
-                <h4>This project needs to be accessable from any device, and usable for people with varying skill sets. Keeping this in mind I was able to move from idea to production in no time!</h4>
-            </div>
+                <ul>
+                    <li>Understand the users needs and wants</li>
+                    <li>Create a structer to</li>
+                </ul>
+                {{-- <h3 class="h3">Understanding the Goals</h3> --}}
+               {{--  <h4>This project needs to be accessable from any device, and usable for people with varying skill sets. Keeping this in mind I was able to move from idea to production in no time!</h4>
+ --}}            </div>
             <div class="row">
                 <div class="column">
                     <div class="small-3 th">
