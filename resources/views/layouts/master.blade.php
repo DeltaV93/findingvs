@@ -1,27 +1,28 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Valerie Sharp,Designer,Developer,UI,UX,Valerie Sharp Devlopment,Web Design,Interface Design,User Experience Design,Front-End Development,CSS,California,los angeles,Freelance Developer,MODX developer">
+    <meta name="keywords" content="Valerie Sharp,Designer,Developer,UI,UX,Valerie Sharp Devlopment,Web Design,Interface Design,User Experience Design,Front-End Development,CSS,California,los angeles,Freelance Developer,web developer">
     <meta property="og:description" content="Freelance Front-end Developer producing high quality responsive websites and exceptional user experience">
-    {{-- <meta property="og:description" content="A Front-end Developer's Portfolio"> --}}
+    <meta property="og:description" content="A Front-end Developer's Portfolio">
     <meta name="description" content="Valerie Sharp is a UX Designer and Frontend developer specializing in web, user interfaces and user experiences. She designs, She codes, and is available for work.">
     <meta name="author" content="Valerie Sharpr">
-    <meta name="copyright" content="Copyright Valerie Sharp">
 
     <title>@yield('title') | Valerie Sharp</title>
     <meta name="description" content="@yield('description')">
 
     <link rel="icon" href="{!! asset('favicon.png') !!}" type="image/x-icon">
 
-        {{-- APP STYLESHEETS --}}
+    {{-- APP STYLESHEETS --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/fc8a56c203.css">
     {!! HTML::style('css/app.css') !!}
     {!! HTML::style('css/valerie.css') !!}
     @yield('css')
-    <body id="gradient">
+  </head>
+  <body id="gradient">
     <div class="top">
         <nav class="top-bar">
             <div class="top-bar-left">
@@ -30,7 +31,7 @@
                     <li><a href="{{ url('/') }}">Home</a></li>
                     <li><a href="{{ url('/project') }}">Process</a></li>
                     <li><a href="{{ url('/resume') }}">Resume</a></li>
-                    <li><a href="#" data-open="contactModal">Contact</a></li>
+                    <li><a  data-open="contactModal">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -43,33 +44,7 @@
             {{-- MODALS --}}
 
         <div class="reveal" id="contactModal" aria-labelledby="exampleModalHeader11" data-reveal>
-          <h1 id="exampleModalHeader11">Hey, this is Valerie leave your message after the beep</h1>
-          <p class="lead">Beeeeeeeeeeeeepppppppp</p>
-            <form>
-              <div class="row">
-                <div class="medium-6 columns">
-                  <label>Name
-                    <input type="text" placeholder="Your Name">
-                  </label>
-                </div>
-                <div class="medium-6 columns">
-                  <label>Email
-                    <input type="email" placeholder="Email">
-                  </label>
-                </div>
-              </div>
-              <div class="medium-12 columns">
-                  <label>
-                   Message
-                      <textarea placeholder="Please enter your message here"></textarea>
-                </label>
-              </div>
-              <button class="left" type="submit">Send</button>
-            </form>
-
-          <button class="close-button" data-close aria-label="Close Accessible Modal" type="button">
-            <span aria-hidden="true">&times;</span>
-          </button>
+          @include('layouts.modal.contact')
         </div>
         @include('layouts.partials.footer')
         {{-- APP CONTENT ENDS --}}
@@ -85,8 +60,45 @@
 
 
         <script type="text/javascript">
-            $(document).foundation();
+        $(document).foundation();
+
+        $(document).ready( function(){
+            var $userName = $('#name'),
+            $userEmail = $('#email'),
+            $userMessage = $('#message');
+            // Watch for send modal btn click
+            $('form').submit( function (event) {
+                event.preventDefault();
+                var baseUrl = window.location;
+                // start ajax call w/POST
+                $.ajax({
+                    type: 'POST',
+                    url: 'contact',
+                    data: {
+                        name: $userName.val(),
+                        email: $userEmail.val(),
+                        _token: $('input[name=_token]').val(),
+                        message: $userMessage.val()
+                    },
+                    beforeSend: function () {
+                        alert('trying to send');
+
+                    },
+                    // on success show got it message
+                    success: function (event) {
+                        $('form').css('display', 'none');
+                        $('button[type="button"]').fadeIn(700).css('display', 'block');
+
+                    },
+                    // on error show error/try again message
+                    error: function () {
+                        alert("An error has occured!!! HELP");
+                    }
+                })
+            });
+
+            });
         </script>
         @yield('scripts')
-    </body>
+  </body>
 </html>

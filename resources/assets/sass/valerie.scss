@@ -32,6 +32,7 @@ $alpha:			0.5;
 // UI Kit
 // @import "font";
 @import "type";
+@import "sound_wave";
 // @import "buttons";
 // @import "nav";
 // @import "navbar";
@@ -50,7 +51,7 @@ $alpha:			0.5;
 
 .about {
 	margin-top: 15px;
-  margin-bottom: 8vw;
+  margin-bottom: 3vw;
 }
 // Vertebrae
 // @import "theme";
@@ -192,7 +193,7 @@ body > div.wrapper > div.row > div.column.large-2 > div > div {
 // Nav bar
 .top {
     position: fixed;
-    z-index: 100000;
+    z-index: 1004;
     width: 100%;
     display: block;
 }
@@ -373,6 +374,7 @@ $meter-background:		$brand-brown;
 	}
 }
 // modal
-.close-button {
+.close-button,
+.close-button:hover, {
   background-color: transparent;
 }

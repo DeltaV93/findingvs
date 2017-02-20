@@ -35,7 +35,7 @@ Route::get('project/estify', function(){
 
 Route::resource('/resume', 'ResumeController@index');
 
-Route::resource('/admin', 'AdminController'); 
+Route::resource('/admin', 'AdminController');
 
 Route::resource('projects', 'ProjectController');
 
@@ -43,12 +43,8 @@ Route::resource('projects', 'ProjectController');
 
 Route::post('projects/store', 'ProjectController@store');
 
-// Route::get('/test', function() {
-// 	return view('pages.projects.partials.form');
-// });
-
+Route::post('contact', ['as' => 'contact_store', 'uses' => 'ContactController@contact']);
 
 Route::auth();
 
 // Route::get('/home', 'HomeController@index');
-

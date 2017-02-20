@@ -9007,6 +9007,145 @@ a, a:visited {
   font-family: "Oswald";
   text-decoration: none; }
 
+.sound-wave {
+  transform: rotate(90deg);
+  left: 403px;
+  height: 116px;
+  position: relative;
+  display: inline-block; }
+
+.sound-wave-bar {
+  position: absolute;
+  left: 10%;
+  height: 2.33333333vh;
+  opacity: .9;
+  animation: soundwave .5s ease-in-out infinite alternate; }
+
+.sound-wave-bar:nth-child(1) {
+  top: 7vh;
+  margin-left: -0.5vw;
+  width: 1vw;
+  background: #594bab;
+  animation-duration: 1.6s;
+  animation-delay: 0s; }
+
+.sound-wave-bar:nth-child(2) {
+  top: 9.666667vh;
+  margin-left: -2.5vw;
+  width: 5vw;
+  background: #5954b1;
+  animation-duration: 1.6s;
+  animation-delay: 0.1s; }
+
+.sound-wave-bar:nth-child(3) {
+  top: 12.333333vh;
+  margin-left: -3vw;
+  width: 6vw;
+  background: #5a5db6;
+  animation-duration: 1.15s;
+  animation-delay: 0.2s; }
+
+.sound-wave-bar:nth-child(4) {
+  top: 15vh;
+  margin-left: -2.5vw;
+  width: 5vw;
+  background: #5a66bc;
+  animation-duration: 1.45s;
+  animation-delay: 0.3s; }
+
+.sound-wave-bar:nth-child(5) {
+  top: 17.666667vh;
+  margin-left: -2vw;
+  width: 4vw;
+  background: #5b6fc1;
+  animation-duration: 1.1s;
+  animation-delay: 0.4s; }
+
+.sound-wave-bar:nth-child(6) {
+  top: 20.333333vh;
+  margin-left: -1.5vw;
+  width: 3vw;
+  background: #5b78c7;
+  animation-duration: 1.25s;
+  animation-delay: 0.5s; }
+
+.sound-wave-bar:nth-child(7) {
+  top: 23vh;
+  margin-left: -1.5vw;
+  width: 3vw;
+  background: #5b81cd;
+  animation-duration: 1.25s;
+  animation-delay: 0.6s; }
+
+.sound-wave-bar:nth-child(8) {
+  top: 25.666667vh;
+  margin-left: -1vw;
+  width: 2vw;
+  background: #5c8ad2;
+  animation-duration: 1.65s;
+  animation-delay: 0.7s; }
+
+.sound-wave-bar:nth-child(9) {
+  top: 28.333333vh;
+  margin-left: -0.5vw;
+  width: 1vw;
+  background: #5c93d8;
+  animation-duration: 1.65s;
+  animation-delay: 0.8s; }
+
+.sound-wave-bar:nth-child(10) {
+  top: 31vh;
+  margin-left: -1.5vw;
+  width: 3vw;
+  background: #5d9cdd;
+  animation-duration: 1.05s;
+  animation-delay: 0.9s; }
+
+.sound-wave-bar:nth-child(11) {
+  top: 33.666667vh;
+  margin-left: -3vw;
+  width: 6vw;
+  background: #5da5e3;
+  animation-duration: 1.35s;
+  animation-delay: 1s; }
+
+.sound-wave-bar:nth-child(12) {
+  top: 36.333333vh;
+  margin-left: -1vw;
+  width: 2vw;
+  background: #5daee9;
+  animation-duration: 1.05s;
+  animation-delay: 1.1s; }
+
+.sound-wave-bar:nth-child(13) {
+  top: 39vh;
+  margin-left: -1.5vw;
+  width: 3vw;
+  background: #5eb7ee;
+  animation-duration: 1.55s;
+  animation-delay: 1.2s; }
+
+.sound-wave-bar:nth-child(14) {
+  top: 41.666667vh;
+  margin-left: -1.5vw;
+  width: 3vw;
+  background: #5ec0f4;
+  animation-duration: 1.05s;
+  animation-delay: 1.3s; }
+
+.sound-wave-bar:nth-child(15) {
+  top: 44.333333vh;
+  margin-left: -2.5vw;
+  width: 5vw;
+  background: #5fc9f9;
+  animation-duration: 1.15s;
+  animation-delay: 1.4s; }
+
+@keyframes soundwave {
+  to {
+    transform: scaleX(1.1);
+    opacity: 1; } }
+
 .img-panel, .img-panel__art, .img-panel__general, .img-panel__code {
   border-style: solid;
   border-width: 1px;
@@ -9073,7 +9212,7 @@ a, a:visited {
 
 .about {
   margin-top: 15px;
-  margin-bottom: 8vw; }
+  margin-bottom: 3vw; }
 
 .main {
   margin-top: 15px; }
@@ -9179,7 +9318,7 @@ body > div.wrapper > div.row > div.column.large-2 > div > div {
 
 .top {
   position: fixed;
-  z-index: 100000;
+  z-index: 1004;
   width: 100%;
   display: block; }
 
@@ -9317,5 +9456,6 @@ body > div.wrapper > div.row > div.column.large-2 > div > div {
     font-size: 5.6em;
     height: 27vw; } }
 
-.close-button {
+.close-button,
+.close-button:hover {
   background-color: transparent; }
