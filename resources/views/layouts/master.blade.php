@@ -17,7 +17,6 @@
 
     {{-- APP STYLESHEETS --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/fc8a56c203.css">
     {!! HTML::style('css/app.css') !!}
     {!! HTML::style('css/valerie.css') !!}
     @yield('css')
@@ -29,7 +28,7 @@
                 <ul class="dropdown menu" data-dropdown-menu>
                     <li class="menu-text text-primary"> </li>
                     <li><a href="{{ url('/') }}">Home</a></li>
-                    <li><a href="{{ url('/project') }}">Process</a></li>
+                    <li><a href="{{ url('/project') }}">Projects</a></li>
                     <li><a href="{{ url('/resume') }}">Resume</a></li>
                     <li><a  data-open="contactModal">Contact</a></li>
                 </ul>
