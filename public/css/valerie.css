@@ -9463,7 +9463,12 @@ body > div.wrapper > div.row > div.column.large-2 > div > div {
 .project-box--info__bottom .panel {
   height: 200px; }
 
-.frontend.panel {
+.frontend > .panel {
   height: 350px;
-  background-color: white;
-  padding: 10px; }
+  background-color: white; }
+  .frontend > .panel img {
+    height: 50px;
+    widows: 50px; }
+
+.frontend {
+  padding: 0px 6px; }

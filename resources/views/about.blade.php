@@ -58,7 +58,7 @@
     </div>
 
     <div class="container container--off-white containter--recent-projects">
-      <h1 class="h2 text-center">Recent Projects</h1>
+      <h1 class="h2 text-center">Recent Roles</h1>
       <div class="project-boxs row">
 
         <div class="project-box th column large-4 panel">

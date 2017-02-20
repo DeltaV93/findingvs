@@ -383,8 +383,16 @@ $meter-background:		$brand-brown;
 .project-box--info__bottom .panel {
 	height: 200px;
 }
-.frontend.panel {
+.frontend>.panel {
     height: 350px;
     background-color: $white;
-		padding: 10px;
+		// margin-right: 10px;
+		& img {
+			height: 50px;
+			widows: 50px;
+		}
+}
+
+.frontend{
+	padding: 0px 6px;
 }
