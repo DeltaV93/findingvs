@@ -398,12 +398,12 @@ $meter-background:		$brand-brown;
 }
 
 // loading overlay for contact modal
-div#contactModal:after {
+div#contactModal.sending:after {
     position: absolute;
     background-color: white;
     height: 100%;
     width: 100%;
-    content: "1";
+    content: "\00a0";
     top: 0;
     left: 0;
     opacity: 0.5;

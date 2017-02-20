@@ -9473,12 +9473,12 @@ body > div.wrapper > div.row > div.column.large-2 > div > div {
 .frontend {
   padding: 0px 6px; }
 
-div#contactModal:after {
+div#contactModal.sending:after {
   position: absolute;
   background-color: white;
   height: 100%;
   width: 100%;
-  content: "1";
+  content: "\00a0";
   top: 0;
   left: 0;
   opacity: 0.5; }

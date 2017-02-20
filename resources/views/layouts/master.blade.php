@@ -81,18 +81,22 @@
                     },
                     beforeSend: function () {
                         // alert('trying to send');
-                        // 
+                        $('#contactModal').toggleClass('sending');
+                        // disable closing modal
 
                     },
                     // on success show got it message
                     success: function (event) {
-                        $('form').css('display', 'none');
+                        $('#contactModal').toggleClass('sending');
+                        $('.message__success').fadeIn(700).css('display', 'block');
+                        $('form, .sound').css('display', 'none');
                         $('button[type="button"]').fadeIn(700).css('display', 'block');
 
                     },
                     // on error show error/try again message
                     error: function () {
-                        alert("An error has occured!!! HELP");
+                      $('#contactModal').toggleClass('sending');
+                      $('.message__error').fadeIn(700).css('display', 'block');
                     }
                 })
             });
