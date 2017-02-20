@@ -22,7 +22,7 @@
 								<li class="small-1 large-1"><img src="{{ asset('img/tools/sass.svg') }}" alt="Sass Icon"></li>
 								<li class="small-1 large-1"><img src="{{ asset('img/tools/asana.svg') }}" alt="Asana Icon"></li>
 								<li class="small-1 large-1"><img src="{{ asset('img/tools/invision.svg') }}" alt="Invisionapp Icon"></li>
-								<li class="small-1 large-1"><img src="{{ asset('img/tools/html.svg') }}" alt="HTML Icon"></li>
+								<li class="small-1 large-1"><img src="{{ asset('img/tools/HTML.svg') }}" alt="HTML Icon"></li>
 								<li class="small-1 large-1"><img src="{{ asset('img/tools/sass.svg') }}" alt="Sass Icon"></li>
 								<li class="small-1 large-1"><img src="{{ asset('img/tools/gulp.svg') }}" alt="Sass Icon"></li>
 								<li class="small-1 large-1"><img src="{{ asset('img/tools/js.svg') }}" alt="Javascript Icon"></li>
@@ -40,7 +40,7 @@
 						<h3 class="">Tools Used</h3>
 						<ul class="inline-list">
 							<li class="small-1 large-1"><img src="{{ asset('img/tools/sketch.svg') }}" alt="Sketch Icon"></li>
-							<li class="small-1 large-1"><img src="{{ asset('img/tools/html.svg') }}" alt="HTML Icon"></li>
+							<li class="small-1 large-1"><img src="{{ asset('img/tools/HTML.svg') }}" alt="HTML Icon"></li>
 							<li class="small-1 large-1"><img src="{{ asset('img/tools/sass.svg') }}" alt="Sass Icon"></li>
 							<li class="small-1 large-1"><img src="{{ asset('img/tools/Boostrap.svg') }}" alt="Boostrap Icon"></li>
 						</ul>
@@ -61,7 +61,7 @@
 								<li class="small-1 large-1"><img src="{{ asset('img/tools/sass.svg') }}" alt="Sass Icon"></li>
 								<li class="small-1 large-1"><img src="{{ asset('img/tools/asana.svg') }}" alt="Asana Icon"></li>
 								<li class="small-1 large-1"><img src="{{ asset('img/tools/invision.svg') }}" alt="Invisionapp Icon"></li>
-								<li class="small-1 large-1"><img src="{{ asset('img/tools/html.svg') }}" alt="HTML Icon"></li>
+								<li class="small-1 large-1"><img src="{{ asset('img/tools/HTML.svg') }}" alt="HTML Icon"></li>
 								<li class="small-1 large-1"><img src="{{ asset('img/tools/sass.svg') }}" alt="Sass Icon"></li>
 								<li class="small-1 large-1"><img src="{{ asset('img/tools/gulp.svg') }}" alt="Sass Icon"></li>
 								<li class="small-1 large-1"><img src="{{ asset('img/tools/js.svg') }}" alt="Javascript Icon"></li>
@@ -79,7 +79,7 @@
 						<h3 class="">Tools Used</h3>
 						<ul class="inline-list">
 							<li class="small-1 large-1"><img src="{{ asset('img/tools/sketch.svg') }}" alt="Sketch Icon"></li>
-							<li class="small-1 large-1"><img src="{{ asset('img/tools/html.svg') }}" alt="HTML Icon"></li>
+							<li class="small-1 large-1"><img src="{{ asset('img/tools/HTML.svg') }}" alt="HTML Icon"></li>
 							<li class="small-1 large-1"><img src="{{ asset('img/tools/sass.svg') }}" alt="Sass Icon"></li>
 							<li class="small-1 large-1"><img src="{{ asset('img/tools/js.svg') }}" alt="Javascript Icon"></li>
 							<li class="small-1 large-1"><img src="{{ asset('img/tools/Boostrap.svg') }}" alt="Boostrap Icon"></li>
@@ -95,7 +95,7 @@
 				<a href="#">
 					<div class="panel">
 						<h2 class="fronted--title "><a class="fronted--link" href="{{ url('/project/moodbook') }}" target="_blank">MoodBook</a></h2>
-						<a class="fronted--link" href="{{ url('/project/moodbook') }}" target="_blank"><img alt="MoodBook Logo" src="{{asset('/img/moodbook_logo.svg')}}"></a>
+						<a class="fronted--link" href="{{ url('/project/moodbook') }}" target="_blank"><img alt="MoodBook Logo" src="{{asset('/img/MoodBook_Logo.svg')}}"></a>
 						<p class="frontend--description"></p>
 						<h3 class="">Tools Used</h3>
 						<ul class="inline-list">
@@ -103,7 +103,7 @@
 							<li class="small-1 large-1"><img src="{{ asset('img/tools/sass.svg') }}" alt="Sass Icon"></li>
 							<li class="small-1 large-1"><img src="{{ asset('img/tools/asana.svg') }}" alt="Asana Icon"></li>
 							<li class="small-1 large-1"><img src="{{ asset('img/tools/invision.svg') }}" alt="Invisionapp Icon"></li>
-							<li class="small-1 large-1"><img src="{{ asset('img/tools/html.svg') }}" alt="HTML Icon"></li>
+							<li class="small-1 large-1"><img src="{{ asset('img/tools/HTML.svg') }}" alt="HTML Icon"></li>
 							<li class="small-1 large-1"><img src="{{ asset('img/tools/sass.svg') }}" alt="Sass Icon"></li>
 							<li class="small-1 large-1"><img src="{{ asset('img/tools/js.svg') }}" alt="Javascript Icon"></li>
 							<li class="small-1 large-1"><img src="{{ asset('img/tools/Boostrap.svg') }}" alt="Boostrap Icon"></li>

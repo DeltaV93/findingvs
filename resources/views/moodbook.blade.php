@@ -8,7 +8,7 @@
         <div class=" column small-12 medium-3 large-3">
             <div class="th">
                 <a target="_blank" href="http://moodbook.in/">
-                    <img src="{{ asset('img/moodbook_logo.svg') }}">
+                    <img src="{{ asset('img/MoodBook_Logo.svg') }}">
                 </a>
             </div>
         </div>
@@ -40,7 +40,7 @@
                 <dl class="no-bullet">
                     <li>Frontend
                         <dl class="no-bullet inline-list">
-                            <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/html.svg') }}" alt="HTML Icon">Html</li>
+                            <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/HTML.svg') }}" alt="HTML Icon">Html</li>
                             <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/sass.svg') }}" alt="Sass Icon">Sass</li>
                             <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/js.svg') }}" alt="Javascript Icon">Javascript</li>
                             <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/Boostrap.svg') }}" alt="Boostrap Icon">Boostrap</li>
@@ -56,7 +56,7 @@
                             <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/php.svg') }}" alt="PHP Icon">PHP</li>
                             <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/sql.svg') }}" alt="SQL Icon">SQL</li>
                             <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/python.svg') }}" alt="Python Icon">Python</li>
-                        </dl> 
+                        </dl>
                     </li>
                 </dl>
             </div>
@@ -86,7 +86,7 @@
                     <div class="small-3 th">
                         <img src="" alt="">
                         <p>I created a set of moodbords and style tiles to get a better understand of the look and feel of the website.</p>
-                    </div>                    
+                    </div>
                     <div class="small-3 th">
                         <img src="" alt="">
                         <p>With the UI kit I built, I creating low fedility wire frames help to understand all the moving parts of each screen.</p>

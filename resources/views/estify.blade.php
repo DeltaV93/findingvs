@@ -61,7 +61,7 @@
                 <dl class="no-bullet">
                     <li><strong>Frontend</strong>
                         <dl class="no-bullet inline-list">
-                            <li class="small-3 medium-2 large-2"><img src="{{ asset('img/tools/html.svg') }}" alt="HTML Icon">Html</li>
+                            <li class="small-3 medium-2 large-2"><img src="{{ asset('img/tools/HTML.svg') }}" alt="HTML Icon">Html</li>
                             <li class="small-3 medium-2 large-2"><img src="{{ asset('img/tools/sass.svg') }}" alt="Sass Icon">Sass</li>
                             <li class="small-3 medium-2 large-2"><img src="{{ asset('img/tools/gulp.svg') }}" alt="Sass Icon">Gulp</li>
                             <li class="small-3 medium-2 large-2"><img src="{{ asset('img/tools/js.svg') }}" alt="Javascript Icon">Javascript</li>

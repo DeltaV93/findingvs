@@ -62,7 +62,7 @@
       <div class="project-boxs row">
 
         <div class="project-box th column large-4 panel">
-          <a href="{{ url('/project/moodbook') }}"><img class="test-img " alt="MoodBook Logo" src="{{asset('/img/moodbook_logo.svg')}}"></a>
+          <a href="{{ url('/project/moodbook') }}"><img class="test-img " alt="MoodBook Logo" src="{{asset('/img/MoodBook_Logo.svg')}}"></a>
           <div class="project-box--info__bottom">
             <div class="container panel">
                 <h2>MoodBook</h2>
@@ -84,7 +84,7 @@
         </div>
 
         <div class="project-box th column large-4 panel">
-          <a href="{{ url('/project/metalab') }}"><img class="test-img " alt="Meta+ Lab Logo" src="{{asset('/img/metalab_logo.svg')}}"></a>
+          <a href="{{ url('/project/metalab') }}"><img class="test-img " alt="Meta+ Lab Logo" src="{{asset('/img/metaLab_logo.svg')}}"></a>
           <div class="project-box--info__bottom">
             <div class="container panel">
                 <h2>Meta+ Lab</h2>
