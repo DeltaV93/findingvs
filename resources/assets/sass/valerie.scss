@@ -58,9 +58,7 @@ $alpha:			0.5;
 .main {
 	margin-top: 15px;
 }
-.text-white {
-	color: $white;
-}
+
 .top-bar {
   height: 2.9125rem;
 }
@@ -377,4 +375,14 @@ $meter-background:		$brand-brown;
 .close-button,
 .close-button:hover, {
   background-color: transparent;
+}
+
+.text-white {
+	color: $white;
+}
+.project-box--info__bottom .panel {
+	height: 200px;
+}
+.frontend.panel {
+    height: 350px;
 }

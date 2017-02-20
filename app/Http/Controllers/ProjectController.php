@@ -22,13 +22,13 @@ class ProjectController extends Controller
         $projects = Project::all();
 
         // MAKES THE RELATIONSHIP BETWEEN USER AND ENTRY
-        // NOT NEEDED IN THE PROJECT 
-        // ADMIN SHOULD SEE IT ALL 
+        // NOT NEEDED IN THE PROJECT
+        // ADMIN SHOULD SEE IT ALL
             // $projects = Auth::user()->project()
             // ->orderBy('created_at', 'desc')
-            // ->get();        
+            // ->get();
 
-        return view('pages.projects.index', compact('projects', 'urlChecker'));
+        return view('pages.projects.index',);
     }
 
     /**
@@ -36,9 +36,9 @@ class ProjectController extends Controller
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
-     */    
+     */
     public function moodbook()
-    {     
+    {
         return view('moodbook');
     }
     /**
@@ -46,17 +46,17 @@ class ProjectController extends Controller
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
-     */    
+     */
     public function frontend()
     {
         $projects = Project::all();
 
         // MAKES THE RELATIONSHIP BETWEEN USER AND ENTRY
-        // NOT NEEDED IN THE PROJECT 
-        // ADMIN SHOULD SEE IT ALL 
+        // NOT NEEDED IN THE PROJECT
+        // ADMIN SHOULD SEE IT ALL
             // $projects = Auth::user()->project()
             // ->orderBy('created_at', 'desc')
-            // ->get();        
+            // ->get();
 
         return view('frontend', compact('projects', 'urlChecker'));
     }
@@ -82,16 +82,16 @@ class ProjectController extends Controller
     public function store(ProjectRequest $request)
     {
         // THIS DOES NOT NEED TO BE HERE
-        // SHOULD REDIRECT TO PROJECT INDEX 
+        // SHOULD REDIRECT TO PROJECT INDEX
         // AND PULL ALL PROJECTS THERE
         $projects = Project::all();
 
         Project::create([
-                    'user_id' => Auth::user()->id, 
+                    'user_id' => Auth::user()->id,
                     'project_title' => $request->input('project_title'),
                     'project_image' => $request->input('project_image'),
-                    'project_description'=> $request->input('project_description'), 
-                    'project_tools'=> $request->input('project_tools'), 
+                    'project_description'=> $request->input('project_description'),
+                    'project_tools'=> $request->input('project_tools'),
                     'project_feedback'=>$request->input('project_feedback'),
                     'project_gallery'=>$request->input('project_gallery')]);
 

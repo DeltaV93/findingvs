@@ -22,7 +22,7 @@ Route::get('frontend', 'ProjectController@frontend');
 // });
 
 Route::get('project', function(){
-    return view('projects');
+    return view('frontend');
 });
 
 Route::get('project/moodbook', function(){
