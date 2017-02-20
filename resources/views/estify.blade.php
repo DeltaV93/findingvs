@@ -74,35 +74,7 @@
     </div>
     <div class="row">
         <h2 class="h3"><strong>Example</strong></h2>
-        <div class="row">
-            <div class="column">
-                <h4>This project needs to be accessable from any device, and usable for people with varying skill sets. Keeping this in mind I was able to move from idea to production in no time!</h4>
-            </div>
-            <div class="row">
-                <div class="column">
-                    <div class="small-3 th">
-                        <img src="" alt="">
-                        <p>Created user personas to understand the users needs, wants, and fustrations. I mapped this information with the the personal goals I had for the website, and used this as a guide to figure what could be acomplished in the given time period.</p>
-                    </div>
-                    <div class="small-3 th">
-                        <img src="" alt="">
-                        <p>I start off making a site map to understand what is needed to reach the end goal for a user.</p>
-                    </div>
-                    <div class="small-3 th">
-                        <img src="" alt="">
-                        <p>I created a set of moodbords and style tiles to get a better understand of the look and feel of the website.</p>
-                    </div>
-                    <div class="small-3 th">
-                        <img src="" alt="">
-                        <p>With the UI kit I built, I creating low fedility wire frames help to understand all the moving parts of each screen.</p>
-                    </div>
-                    <div class="small-3 th">
-                        <img src="" alt="">
-                        <p>Creating Hi-fidility screens make help to make sure the branding is constant, and there are no gaps in the flow.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="row"></div>
     </div>
 </div>
 @endsection

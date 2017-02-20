@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'DeltaV | Frontend Devlopment')
+@section('Projects')
 @section('description')
   {{-- Add Description --}}
 @endsection
