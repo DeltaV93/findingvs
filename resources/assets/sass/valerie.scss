@@ -396,3 +396,15 @@ $meter-background:		$brand-brown;
 .frontend{
 	padding: 0px 6px;
 }
+
+// loading overlay for contact modal
+div#contactModal:after {
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    content: "1";
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}

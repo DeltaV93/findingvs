@@ -80,7 +80,8 @@
                         message: $userMessage.val()
                     },
                     beforeSend: function () {
-                        alert('trying to send');
+                        // alert('trying to send');
+                        // 
 
                     },
                     // on success show got it message
