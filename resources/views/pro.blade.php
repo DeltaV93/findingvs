@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Estify')
+@section('title', 'Pro')
 @section('description')
 @section('content')
 <div class="container container--white project">
@@ -7,16 +7,16 @@
     <div class="row project-header">
         <div class=" column small-12 medium-3 large-3">
             <div class="th">
-                <a target="_blank" href="http://moodbook.in/">
-                    <img src="{{ asset('img/estify_logo.svg') }}">
+                <a target="_blank" href="">
+                    <img src="{{ asset('img/pro_logo.svg') }}">
                 </a>
             </div>
         </div>
         <div class=" column small-12 medium-9 large-9">
             <div class="project-info">
-                <h1>Estify<small> Bring Body Shops Into the Digital Age.</small></h1>
+                <h1>Estify Pro</h1>
                 <h2 class="h5">
-                    <strong>Role</strong> UX/UI Desginer &amp; Frontend Devolpoer
+                    <strong>Role</strong> UX/UI Desginer &amp; Frontend Devloper
                 </h2>
             </div>
         </div>

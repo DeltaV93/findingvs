@@ -19,49 +19,52 @@
                     <strong>Role</strong>
                     Full Stack Devloper
                 </h2>
+                <h3 class="h5">
+                    {{-- <strong>Completed</strong> --}} May 2016                    
+                </h3>
             </div>
         </div>
     </div>
     <div class="row">
-        <h2 class="h4"><strong>Tools &amp; Technology Used</strong></h2>
+        <h2 class="h3"><strong>Tools &amp; Stack</strong></h2>
         <div class="row">
             <div class="column small-4">
                 <dl class="no-bullet">
-                    <li>UX &amp; Planing</li>
+                    <li><strong>UX &amp; Planing</strong></li>
                     <dl class="no-bullet inline-list">
-                        <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/sketch.svg') }}" alt="Sketch Icon">Sketch</li>
-                        <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/sass.svg') }}" alt="Sass Icon">MindNode</li>
-                        <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/asana.svg') }}" alt="Asana Icon">Asana</li>
-                        <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/invision.svg') }}" alt="Invisionapp Icon">Invision</li>
+                        <li class="small-3 medium-2 large-2"><img src="{{ asset('img/tools/sketch.svg') }}" alt="Sketch Icon">Sketch</li>
+                        <li class="small-3 medium-2 large-2"><img src="{{ asset('img/tools/sass.svg') }}" alt="Sass Icon">MindNode</li>
+                        <li class="small-3 medium-2 large-2"><img src="{{ asset('img/tools/asana.svg') }}" alt="Asana Icon">Asana</li>
+                        <li class="small-3 medium-2 large-2"><img src="{{ asset('img/tools/invision.svg') }}" alt="Invisionapp Icon">Invision</li>
                     </dl>
                 </dl>
             </div>
             <div class="column small-4">
                 <dl class="no-bullet">
-                    <li>Frontend
+                    <li><strong>Frontend</strong>
                         <dl class="no-bullet inline-list">
-                            <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/HTML.svg') }}" alt="HTML Icon">Html</li>
-                            <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/sass.svg') }}" alt="Sass Icon">Sass</li>
-                            <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/js.svg') }}" alt="Javascript Icon">Javascript</li>
-                            <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/Boostrap.svg') }}" alt="Boostrap Icon">Boostrap</li>
+                            <li class="small-3 medium-2 large-2"><img src="{{ asset('img/tools/HTML.svg') }}" alt="HTML Icon">Html</li>
+                            <li class="small-3 medium-2 large-2"><img src="{{ asset('img/tools/sass.svg') }}" alt="Sass Icon">Sass</li>
+                            <li class="small-3 medium-2 large-2"><img src="{{ asset('img/tools/js.svg') }}" alt="Javascript Icon">Javascript</li>
+                            <li class="small-3 medium-2 large-2"><img src="{{ asset('img/tools/Boostrap.svg') }}" alt="Boostrap Icon">Boostrap</li>
                         </dl>
                     </li>
                 </dl>
             </div>
             <div class="column small-4">
                 <dl class="no-bullet">
-                    <li>Backend
+                    <li><strong>Backend</strong>
                         <dl class="no-bullet inline-list">
-                            <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/learvel.svg') }}" alt="Laravel Icon">Laravel</li>
-                            <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/php.svg') }}" alt="PHP Icon">PHP</li>
-                            <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/sql.svg') }}" alt="SQL Icon">SQL</li>
-                            <li class="small-4 medium-2 large-1"><img src="{{ asset('img/tools/python.svg') }}" alt="Python Icon">Python</li>
+                            <li class="small-3 medium-2 large-2"><img src="{{ asset('img/tools/learvel.svg') }}" alt="Laravel Icon">Laravel</li>
+                            <li class="small-3 medium-2 large-2"><img src="{{ asset('img/tools/php.svg') }}" alt="PHP Icon">PHP</li>
+                            <li class="small-3 medium-2 large-2"><img src="{{ asset('img/tools/sql.svg') }}" alt="SQL Icon">SQL</li>
+                            <li class="small-3 medium-2 large-2"><img src="{{ asset('img/tools/python.svg') }}" alt="Python Icon">Python</li>
                         </dl>
                     </li>
                 </dl>
             </div>
         </div>
-    </div>
+    </div>   
     <div class="row">
         <h2 class="h4"><strong>My Resposibilities</strong></h2>
         <div class="row">
@@ -70,9 +73,7 @@
                     <li>Understand the users needs and wants</li>
                     <li>Create a structer to</li>
                 </ul>
-                {{-- <h3 class="h3">Understanding the Goals</h3> --}}
-               {{--  <h4>This project needs to be accessable from any device, and usable for people with varying skill sets. Keeping this in mind I was able to move from idea to production in no time!</h4>
- --}}            </div>
+            </div>
             <div class="row">
                 <div class="column">
                     <div class="small-3 th">

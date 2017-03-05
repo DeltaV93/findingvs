@@ -42,7 +42,7 @@
             </div>
             {{-- MODALS --}}
 
-        <div class="reveal" id="contactModal" aria-labelledby="exampleModalHeader11" data-reveal>
+        <div class="reveal" id="contactModal" aria-labelledby="exampleModalHeader11" data-reveal data-options="closeOnClick:true; data-reset-on-close;">
           @include('layouts.modal.contact')
         </div>
         @include('layouts.partials.footer')
@@ -50,58 +50,65 @@
 
         {{-- APP SCRIPTS --}}
         <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+        {{-- <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js" integrity="sha256-JklDYODbg0X+8sPiKkcFURb5z7RvlNMIaE3RA2z97vw=" crossorigin="anonymous"></script> --}}
         {{-- <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script> --}}
-        {!! HTML::script('js/foundation.min.js') !!}
+        {{-- {!! HTML::script('js/foundation.min.js') !!} --}}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/js/foundation.min.js"></script>
+        {{-- <script scr="https://cdn.jsdelivr.net/foundation/6.2.4-rc2/foundation.min.js"></script> --}}
+        {{-- <script src="https://cdn.jsdelivr.net/g/foundation@6.2.3(foundation.min.js+js/foundation.abide.js+js/foundation.accordion.js+js/foundation.accordionMenu.js+js/foundation.core.js+js/foundation.drilldown.js+js/foundation.dropdown.js+js/foundation.dropdownMenu.js+js/foundation.equalizer.js+js/foundation.interchange.js+js/foundation.magellan.js+js/foundation.offcanvas.js+js/foundation.orbit.js+js/foundation.responsiveMenu.js+js/foundation.responsiveToggle.js+js/foundation.reveal.js+js/foundation.slider.js+js/foundation.sticky.js+js/foundation.tabs.js+js/foundation.toggler.js+js/foundation.tooltip.js+js/foundation.util.box.js+js/foundation.util.keyboard.js+js/foundation.util.mediaQuery.js+js/foundation.util.motion.js+js/foundation.util.nest.js+js/foundation.util.timerAndImageLoader.js+js/foundation.util.touch.js+js/foundation.util.triggers.js)"></script> --}}
+        {{-- <script type="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.4/plugins/foundation.reveal.js"></script> --}}
         {!! HTML::script('js/app.js') !!}
-        <script scr="https://cdn.jsdelivr.net/foundation/6.2.4-rc2/foundation.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/g/foundation@6.2.3(foundation.min.js+js/foundation.abide.js+js/foundation.accordion.js+js/foundation.accordionMenu.js+js/foundation.core.js+js/foundation.drilldown.js+js/foundation.dropdown.js+js/foundation.dropdownMenu.js+js/foundation.equalizer.js+js/foundation.interchange.js+js/foundation.magellan.js+js/foundation.offcanvas.js+js/foundation.orbit.js+js/foundation.responsiveMenu.js+js/foundation.responsiveToggle.js+js/foundation.reveal.js+js/foundation.slider.js+js/foundation.sticky.js+js/foundation.tabs.js+js/foundation.toggler.js+js/foundation.tooltip.js+js/foundation.util.box.js+js/foundation.util.keyboard.js+js/foundation.util.mediaQuery.js+js/foundation.util.motion.js+js/foundation.util.nest.js+js/foundation.util.timerAndImageLoader.js+js/foundation.util.touch.js+js/foundation.util.triggers.js)"></script>
-        <script type="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.4/plugins/foundation.reveal.js"></script>
 
 
         <script type="text/javascript">
         $(document).foundation();
-
+        $('form, .sound').css('display', 'block');
+        var $userName = $('#name'),
+        $userEmail = $('#email'),
+        $userMessage = $('#message');
+        $("form").validate();
+        // Watch for send modal btn click
+        $('form').submit( function (event) {
+            event.preventDefault();
+            // start ajax call w/POST
+            $.ajax({
+                type: 'POST',
+                url: '/contact',
+                data: {
+                    name: $userName.val(),
+                    email: $userEmail.val(),
+                    _token: $('input[name=_token]').val(),
+                    message: $userMessage.val()
+                },
+                beforeSend: function (event) {
+                    $('#contactModal').toggleClass('sending');
+                    // disable closing modal while ajx is happing
+                },
+                // on success show got it message
+                success: function (event) {
+                    $('#contactModal').toggleClass('sending');
+                    $('.message__success').fadeIn(700).css('display', 'block');
+                    $('form, .sound').css('display', 'none');
+                    $('button[type="button"]').fadeIn(700).css('display', 'block');
+                    // when the close btn is pressed, reset the form so
+                    // the next time the user clicks on contact
+                    // they can fill out the form
+                },
+                // on error show error/try again message
+                error: function () {
+                  alert('somethings not working');
+                  $('#contactModal').toggleClass('sending');
+                  $('.message__error').fadeIn(700).css('display', 'block');
+                }
+            })
+        });
         $(document).ready( function(){
-            var $userName = $('#name'),
-            $userEmail = $('#email'),
-            $userMessage = $('#message');
-            // Watch for send modal btn click
-            $('form').submit( function (event) {
-                event.preventDefault();
-                var baseUrl = window.location;
-                // start ajax call w/POST
-                $.ajax({
-                    type: 'POST',
-                    url: 'contact',
-                    data: {
-                        name: $userName.val(),
-                        email: $userEmail.val(),
-                        _token: $('input[name=_token]').val(),
-                        message: $userMessage.val()
-                    },
-                    beforeSend: function () {
-                        // alert('trying to send');
-                        $('#contactModal').toggleClass('sending');
-                        // disable closing modal
-
-                    },
-                    // on success show got it message
-                    success: function (event) {
-                        $('#contactModal').toggleClass('sending');
-                        $('.message__success').fadeIn(700).css('display', 'block');
-                        $('form, .sound').css('display', 'none');
-                        $('button[type="button"]').fadeIn(700).css('display', 'block');
-
-                    },
-                    // on error show error/try again message
-                    error: function () {
-                      $('#contactModal').toggleClass('sending');
-                      $('.message__error').fadeIn(700).css('display', 'block');
-                    }
-                })
+            $(".clear").on("click",function(){
+              $("form div").removeClass("error");
+              $("form label").removeClass("error");
+              $("form")[0].reset();
             });
-
-            });
+        });
         </script>
         @yield('scripts')
   </body>

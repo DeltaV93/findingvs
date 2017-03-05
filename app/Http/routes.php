@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('about');
 });
 
+Route::get('photo', function () {
+    return view('photo');
+});
+
 Route::get('frontend', 'ProjectController@frontend');
 
 // Route::get('about', function(){
@@ -30,7 +34,13 @@ Route::get('project/moodbook', function(){
 });
 
 Route::get('project/estify', function(){
-	return view('estify');
+    return view('estify');
+});
+Route::get('project/pro', function(){
+    return view('pro');
+});
+Route::get('project/email', function(){
+	return view('email');
 });
 
 Route::resource('/resume', 'ResumeController@index');

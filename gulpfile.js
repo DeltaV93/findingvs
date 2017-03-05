@@ -22,6 +22,7 @@ var components = elixir.config.bowerDir;
 var paths = {
    'jquery': components + '/jquery/dist/',
    'foundation': components + '/foundation/',
+   'jqueryValidation': components + '/jquery-validation/',
    'fontawesome': components + '/font-awesome/'
 };
 // Begin Elixir Project
@@ -37,7 +38,8 @@ elixir(function(mix) {
 
   // Add Scripts to project
   mix.copy(paths.jquery + 'jquery.js', 'public/js/jquery.js')
-     .copy(paths.foundation + 'js/foundation.js', 'public/js/foundation.min.js');
+     .copy(paths.foundation + 'js/foundation.js', 'resources/js/foundation.min.js')
+     .copy(paths.jqueryValidation + 'dist/jquery.validate.min.js', 'resources/js/jquery.validation.js');
 
   // Merge Styles
   mix.styles([
@@ -48,7 +50,8 @@ elixir(function(mix) {
   // Merge Scripts
   mix.scripts([
     'app.js',
-  ],'public/js/app.js', 'resources/js');
+    'jquery.validation.js',
+  ],'public/js/app.js');
 
   // Compile SASS
   mix.sass('valerie.scss')

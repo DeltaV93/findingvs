@@ -32,7 +32,7 @@
     <div class="row">
       <div class="medium-6 columns">
         <label for="name">Name
-          <input id="name" name="name" required type="text" placeholder="Your Name">
+          <input id="name" name="name" minlength="2" required type="text" placeholder="Your Name">
         </label>
       </div>
       <div class="medium-6 columns">
@@ -44,7 +44,7 @@
     <div class="medium-12 columns">
         <label for="message">
          Message
-            <textarea id="message" name="message" type="text" col="10" required placeholder="Please enter your message here"></textarea>
+            <textarea id="message" name="message" type="text" minlength="5" col="10" required placeholder="Please enter your message here"></textarea>
       </label>
     </div>
     <button class="right" type="submit">Send</button>
@@ -53,4 +53,4 @@
     <span aria-hidden="true">&times;</span>
   </button>
   {!! Form::close() !!}
-  <button data-close aria-label="Close Modal" type="button" class="right" style="display:none">Close</button>
+  <button data-close aria-label="Close Modal" type="button" class="right clear" style="display:none">Close</button>

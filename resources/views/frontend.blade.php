@@ -13,8 +13,8 @@
 			<div class="frontend small-12 large-6 column">
 					<div class="panel">
 						<a href="{{ url('/project/pro') }}">
-							<h2 class="fronted--title "><a class="fronted--link" href="{{ url('/project/pro') }}" target="_blank">Estify Pro</a></h2>
-							<a class="fronted--link" href="" target="_blank"><img alt="Estify Pro Logo" src="{{ asset('img/estify_pro_logo.svg') }}"></a>
+							<h2 class="fronted--title "><a class="fronted--link" href="{{ url('/project/pro') }}" >Estify Pro</a></h2>
+							<a class="fronted--link" href="" ><img alt="Estify Pro Logo" src="{{ asset('img/pro_logo.svg') }}"></a>
 							<p class="frontend--description"></p>
 							<h3 class="">Tools Used</h3>
 							<ul class="inline-list">
@@ -34,7 +34,7 @@
 			<div class="frontend small-12 large-6 column">
 				<a href="#">
 					<div class="panel">
-						<h2 class="fronted--title "><a class="fronted--link" href="{{ url('/project/email') }}" target="_blank">Email Marketing</a></h2>
+						<h2 class="fronted--title "><a class="fronted--link" href="{{ url('/project/email') }}" >Email Marketing</a></h2>
 						<a class="fronted--link" href="{{ url('/project/email') }}"><img alt="Email Logo" src="{{asset('/img/email_logo.svg')}}"></a>
 						<p class="frontend--description"></p>
 						<h3 class="">Tools Used</h3>
@@ -52,8 +52,8 @@
 			<div class="frontend small-12 large-6 column">
 					<div class="panel">
 						<a href="{{ url('/project/estify') }}">
-							<h2 class="fronted--title "><a class="fronted--link" href="{{ url('/project/estify') }}" target="_blank">Estify</a></h2>
-							<a class="fronted--link" href="" target="_blank"><img alt="Estify Logo" src="{{ asset('img/estify_logo.svg') }}"></a>
+							<h2 class="fronted--title "><a class="fronted--link" href="{{ url('/project/estify') }}" >Estify</a></h2>
+							<a class="fronted--link" href="" ><img alt="Estify Logo" src="{{ asset('img/estify_logo.svg') }}"></a>
 							<p class="frontend--description"></p>
 							<h3 class="">Tools Used</h3>
 							<ul class="inline-list">
@@ -73,7 +73,7 @@
 			<div class="frontend small-12 large-6 column">
 				<a href="#">
 					<div class="panel">
-						<h2 class="fronted--title "><a class="fronted--link" href="{{ url('/project/metalab') }}" target="_blank">Meta+ Lab</a></h2>
+						<h2 class="fronted--title "><a class="fronted--link" href="{{ url('/project/metalab') }}" >Meta+ Lab</a></h2>
 						<a class="fronted--link" href="{{ url('/project/metalab') }}"><img alt="Meta+ Lab Logo" src="{{asset('/img/metaLab_logo_2.svg')}}"></a>
 						<p class="frontend--description"></p>
 						<h3 class="">Tools Used</h3>
@@ -94,8 +94,8 @@
 			<div class="frontend small-12 large-6 column">
 				<a href="#">
 					<div class="panel">
-						<h2 class="fronted--title "><a class="fronted--link" href="{{ url('/project/moodbook') }}" target="_blank">MoodBook</a></h2>
-						<a class="fronted--link" href="{{ url('/project/moodbook') }}" target="_blank"><img alt="MoodBook Logo" src="{{asset('/img/MoodBook_Logo.svg')}}"></a>
+						<h2 class="fronted--title "><a class="fronted--link" href="{{ url('/project/moodbook') }}" >MoodBook</a></h2>
+						<a class="fronted--link" href="{{ url('/project/moodbook') }}" ><img alt="MoodBook Logo" src="{{asset('/img/MoodBook_Logo.svg')}}"></a>
 						<p class="frontend--description"></p>
 						<h3 class="">Tools Used</h3>
 						<ul class="inline-list">
@@ -118,8 +118,8 @@
 			<div class="frontend small-12 large-6 column">
 				<a href="#">
 					<div class="panel">
-						<h2 class="fronted--title "><a class="fronted--link" href="{{ url('/project/supply_ocean') }}" target="_blank">Supply Ocean</a></h2>
-						<a class="fronted--link" href="" target="_blank"><img alt="Supply Ocean Logo" src="{{ asset('/img/supply_ocean.svg')  }}"></a>
+						<h2 class="fronted--title "><a class="fronted--link" href="{{ url('/project/supply_ocean') }}" >Supply Ocean</a></h2>
+						<a class="fronted--link" href="" ><img alt="Supply Ocean Logo" src="{{ asset('/img/supply_ocean.svg')  }}"></a>
 						<p class="frontend--description"></p>
 						<h3 class="">Tools Used</h3>
 						<ul class="inline-list">
